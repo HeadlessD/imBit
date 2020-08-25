@@ -1,0 +1,1680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44569183BD92E9B632F3A88E /* libPods-BiChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28096EC46443B9E37272D075 /* libPods-BiChat.a */; };
+		5C00DD3F20905A59003FDFFD /* WPRedPacketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C00DD3E20905A59003FDFFD /* WPRedPacketTableViewCell.m */; };
+		5C00DD43209098E0003FDFFD /* WPRedPacketModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C00DD42209098E0003FDFFD /* WPRedPacketModel.m */; };
+		5C00DD4620909E7B003FDFFD /* WPRedPacketHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C00DD4520909E7B003FDFFD /* WPRedPacketHeaderView.m */; };
+		5C012B53207B701700AB5A45 /* WPBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C012B52207B701700AB5A45 /* WPBaseManager.m */; };
+		5C012B56207B8BE100AB5A45 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C012B54207B8BE100AB5A45 /* NSDictionary+Category.m */; };
+		5C012B59207C8D8300AB5A45 /* WPBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C012B58207C8D8300AB5A45 /* WPBaseTableViewCell.m */; };
+		5C0B647720A0159600ECE764 /* WPRedPacketSendCoinSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B647620A0159600ECE764 /* WPRedPacketSendCoinSelectView.m */; };
+		5C0B647A20A0175600ECE764 /* WPRedPacketCoinTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B647920A0175600ECE764 /* WPRedPacketCoinTableViewCell.m */; };
+		5C0B647D20A157FB00ECE764 /* WPRedPacketSendReceiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B647C20A157FB00ECE764 /* WPRedPacketSendReceiveModel.m */; };
+		5C0B648020A1585B00ECE764 /* WPRedPacketSendCoinModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B647F20A1585B00ECE764 /* WPRedPacketSendCoinModel.m */; };
+		5C0B648320A17CE500ECE764 /* WPRedPacketPayWorkdInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B648220A17CE500ECE764 /* WPRedPacketPayWorkdInputView.m */; };
+		5C0B648620A1B89D00ECE764 /* WPRedPacketSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B648520A1B89D00ECE764 /* WPRedPacketSendView.m */; };
+		5C0B648920A2CC7B00ECE764 /* WPRedPacketRobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B648820A2CC7B00ECE764 /* WPRedPacketRobViewController.m */; };
+		5C0B648C20A33B8F00ECE764 /* WPRedPacketRobView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B648B20A33B8F00ECE764 /* WPRedPacketRobView.m */; };
+		5C0B648F20A41F3A00ECE764 /* WPRedpacketRobRedPacketDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B648E20A41F3A00ECE764 /* WPRedpacketRobRedPacketDetailModel.m */; };
+		5C0B649220A5745900ECE764 /* WPRedPacketGetRedPacketPeopleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B649120A5745900ECE764 /* WPRedPacketGetRedPacketPeopleModel.m */; };
+		5C0B649520A5767C00ECE764 /* WPRedPacketDetalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B649420A5767C00ECE764 /* WPRedPacketDetalTableViewCell.m */; };
+		5C0B649920A600BD00ECE764 /* ChatListGroupApproveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B649620A6002100ECE764 /* ChatListGroupApproveViewController.m */; };
+		5C0B649A20A600CE00ECE764 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B052C2031FE8C001A750C /* ChatViewController.m */; };
+		5C0B649E20A6022400ECE764 /* RedPacketADCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B649B20A6014E00ECE764 /* RedPacketADCell.m */; };
+		5C0B64A120A6027600ECE764 /* GroupApproveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B64A020A6027500ECE764 /* GroupApproveViewController.m */; };
+		5C0B64A420A602DA00ECE764 /* UnknownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B64A220A602D900ECE764 /* UnknownCell.m */; };
+		5C133C5E2086F81F00146AE7 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C133C5D2086F81F00146AE7 /* UIViewController+BackButtonHandler.m */; };
+		5C133C6120870C4500146AE7 /* WPPublicAccountDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C133C6020870C4500146AE7 /* WPPublicAccountDetailViewController.m */; };
+		5C133C64208713EA00146AE7 /* WPPublicAccountDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C133C63208713EA00146AE7 /* WPPublicAccountDetailView.m */; };
+		5C133C6A2087362C00146AE7 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C133C692087362C00146AE7 /* UIImage+Category.m */; };
+		5C133C6D20898D6C00146AE7 /* WPMemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C133C6C20898D6C00146AE7 /* WPMemoViewController.m */; };
+		5C133C702089A37A00146AE7 /* WPPublicAccountSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C133C6F2089A37A00146AE7 /* WPPublicAccountSearchViewController.m */; };
+		5C3AF34220996980004B9A79 /* WPShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C3AF34120996980004B9A79 /* WPShareView.m */; };
+		5C6D552C209C4AB8001CA80A /* WPRedPacketSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D552B209C4AB8001CA80A /* WPRedPacketSendViewController.m */; };
+		5C6D5535209C87A1001CA80A /* NSString+Categroy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D5534209C87A1001CA80A /* NSString+Categroy.m */; };
+		5C6D5537209C94AB001CA80A /* UFileSDK_.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E02422052718A004A7A27 /* UFileSDK_.m */; };
+		5C6D553A209C9641001CA80A /* GroupAddMemberCancelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D5538209C963E001CA80A /* GroupAddMemberCancelViewController.m */; };
+		5C7B2D502089C1DF00510503 /* WPPublicSearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B2D4F2089C1DF00510503 /* WPPublicSearchResultTableViewCell.m */; };
+		5C7B2D532089C4C500510503 /* WPPublicSearchResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B2D522089C4C500510503 /* WPPublicSearchResultModel.m */; };
+		5C7B489920AEC55400C6428A /* ZYShareSheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B488E20AEC55400C6428A /* ZYShareSheetCell.m */; };
+		5C7B489A20AEC55400C6428A /* ZYShareSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B488F20AEC55400C6428A /* ZYShareSheetView.m */; };
+		5C7B489B20AEC55400C6428A /* ZYShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B489020AEC55400C6428A /* ZYShareItemCell.m */; };
+		5C7B489C20AEC55400C6428A /* ZYShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B489120AEC55400C6428A /* ZYShareView.m */; };
+		5C7B489D20AEC55400C6428A /* ZYShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B489220AEC55400C6428A /* ZYShareItem.m */; };
+		5C8E6A5E208442800067B80B /* WPNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E6A5D208442800067B80B /* WPNewsDetailViewController.m */; };
+		5CA4FF9A208A068C00F23674 /* WPMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4FF99208A068C00F23674 /* WPMapViewController.m */; };
+		5CA4FF9D208A22F900F23674 /* WPGeoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4FF9C208A22F900F23674 /* WPGeoTableViewCell.m */; };
+		5CA96DD82079B742007D763E /* WPMenuHrizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA96DD72079B742007D763E /* WPMenuHrizontal.m */; };
+		5CB5EE3120A93DBB00623280 /* WPRedPacketErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EE3020A93DBB00623280 /* WPRedPacketErrorView.m */; };
+		5CB5EE3420AAC21D00623280 /* WPRedPacketTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EE3320AAC21D00623280 /* WPRedPacketTargetViewController.m */; };
+		5CB5EE3D20AE732D00623280 /* UIImageView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB5EE3C20AE732D00623280 /* UIImageView+Category.m */; };
+		5CB5EE4120AEACCB00623280 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CB5EE4020AEACCA00623280 /* mapapi.bundle */; };
+		5CC11F55208D856100411EAA /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE9946206B589D00EC1746 /* WebViewJavascriptBridgeBase.m */; };
+		5CC11F56208D856600411EAA /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE994B206B589D00EC1746 /* WebViewJavascriptBridge_JS.m */; };
+		5CC11F5D208D886500411EAA /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CC11F5C208D886500411EAA /* mapapi.bundle */; };
+		5CC11F69208EE88F00411EAA /* WPDiscoverTableViewCellType3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC11F68208EE88F00411EAA /* WPDiscoverTableViewCellType3.m */; };
+		5CE1BB2920746E7A006B46E8 /* WPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1BB2820746E7A006B46E8 /* WPBaseViewController.m */; };
+		5CE1BB2C20746E90006B46E8 /* WPBaseViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1BB2B20746E90006B46E8 /* WPBaseViewController+Tracking.m */; };
+		5CE1BB372074804E006B46E8 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1BB362074804E006B46E8 /* UIColor+Category.m */; };
+		5CE1BB3A207481D8006B46E8 /* WPDiscoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1BB39207481D8006B46E8 /* WPDiscoverView.m */; };
+		5CE1BB4020748341006B46E8 /* WPBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1BB3F20748341006B46E8 /* WPBaseTableView.m */; };
+		5CE1BB4320749EA9006B46E8 /* WPDiscoverTableViewCellType1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1BB4220749EA9006B46E8 /* WPDiscoverTableViewCellType1.m */; };
+		5CE1BB4620749EBC006B46E8 /* WPDiscoverTableViewCellType2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1BB4520749EBC006B46E8 /* WPDiscoverTableViewCellType2.m */; };
+		5CE1BB492074A67B006B46E8 /* WPDiscoverModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE1BB482074A67B006B46E8 /* WPDiscoverModel.m */; };
+		8416020720A0794600F690C4 /* GroupAddMemberConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416020620A0794600F690C4 /* GroupAddMemberConfirmViewController.m */; };
+		8416020A20A09B2700F690C4 /* FileDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8416020920A09B2700F690C4 /* FileDeleteCell.m */; };
+		841A55B8206B85F500AAB2E3 /* ReceiveRedPacketWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55B7206B85F500AAB2E3 /* ReceiveRedPacketWebViewController.m */; };
+		841A55BB206B905900AAB2E3 /* MyWalletAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55BA206B905900AAB2E3 /* MyWalletAccountViewController.m */; };
+		841A55BE206DF8E500AAB2E3 /* MyWeChatBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55BD206DF8E500AAB2E3 /* MyWeChatBindingViewController.m */; };
+		841A55C4206E1A7600AAB2E3 /* MyWalletCoinInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55C3206E1A7600AAB2E3 /* MyWalletCoinInfoViewController.m */; };
+		841A55C7206E44BB00AAB2E3 /* CoinSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55C6206E44BB00AAB2E3 /* CoinSelectViewController.m */; };
+		841A55CA2072481E00AAB2E3 /* BindWeChat@RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55C92072481E00AAB2E3 /* BindWeChat@RegisterViewController.m */; };
+		841A55CD2072549900AAB2E3 /* MyWalletSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55CC2072549900AAB2E3 /* MyWalletSetupViewController.m */; };
+		841A55D0207A547D00AAB2E3 /* ConbineMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55CF207A547D00AAB2E3 /* ConbineMessageViewController.m */; };
+		841A55D3207B564E00AAB2E3 /* ChatListFoldFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841A55D2207B564E00AAB2E3 /* ChatListFoldFriendViewController.m */; };
+		8445AA2B20651B5000096469 /* MySignSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445AA2A20651B5000096469 /* MySignSetupViewController.m */; };
+		8445AA2E2065256B00096469 /* GroupSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445AA2D2065256B00096469 /* GroupSetupViewController.m */; };
+		8445AA312065539000096469 /* AllGroupMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8445AA302065539000096469 /* AllGroupMemberViewController.m */; };
+		845030D620A978C7009B4CDC /* ChatFoldSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845030D520A978C7009B4CDC /* ChatFoldSelectViewController.m */; };
+		845030D920A978D9009B4CDC /* ChatNewFriendSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845030D820A978D9009B4CDC /* ChatNewFriendSelectViewController.m */; };
+		845030DF20AAD2EF009B4CDC /* ChatGroupManageSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845030DE20AAD2EF009B4CDC /* ChatGroupManageSelectViewController.m */; };
+		846F4CF2205A4F9F00351726 /* CountrySelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F4CF1205A4F9F00351726 /* CountrySelectorViewController.m */; };
+		846F4CF5205A6D8700351726 /* SetUserAvatarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F4CF4205A6D8700351726 /* SetUserAvatarViewController.m */; };
+		846F4CF9205A7D7800351726 /* RedPacketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F4CF8205A7D7800351726 /* RedPacketViewController.m */; };
+		846F4CFC205FB1C300351726 /* MyBlackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F4CFB205FB1C300351726 /* MyBlackListViewController.m */; };
+		84B05CD620623A9000D386E1 /* GroupMemberDeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B05CD520623A9000D386E1 /* GroupMemberDeleteViewController.m */; };
+		84C0AB282089A91300A7E0D3 /* ChatPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C0AB272089A91300A7E0D3 /* ChatPropertyViewController.m */; };
+		84C0AB31209300D000A7E0D3 /* GroupAddMemberApplyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C0AB30209300D000A7E0D3 /* GroupAddMemberApplyCell.m */; };
+		84C0AB3420930E6500A7E0D3 /* GroupAddMemberApplyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C0AB3320930E6500A7E0D3 /* GroupAddMemberApplyInfoViewController.m */; };
+		84CA139B20AC1D2600977821 /* VirtualGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA139A20AC1D2600977821 /* VirtualGroupListViewController.m */; };
+		84CA139E20AC54B200977821 /* VirtualGroupSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CA139D20AC54B200977821 /* VirtualGroupSetupViewController.m */; };
+		84ECFB452080708400132D7C /* QuotationViewLit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ECFB442080708400132D7C /* QuotationViewLit.m */; };
+		84EE99382067B18600EC1746 /* ChatSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE99372067B18600EC1746 /* ChatSelectViewController.m */; };
+		84EE993C2068D82300EC1746 /* SendRedPacketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE993B2068D82300EC1746 /* SendRedPacketViewController.m */; };
+		84EE9942206B57D700EC1746 /* SendRedPacketWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE9941206B57D700EC1746 /* SendRedPacketWebViewController.m */; };
+		84EE994F206B589D00EC1746 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE9947206B589D00EC1746 /* WKWebViewJavascriptBridge.m */; };
+		84EE9950206B589D00EC1746 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE9948206B589D00EC1746 /* WebViewJavascriptBridge.m */; };
+		84EE9954206B5B0300EC1746 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EE9953206B5B0300EC1746 /* WebKit.framework */; };
+		F013A7FE20599BCA00B2DBBF /* VerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F013A7FD20599BCA00B2DBBF /* VerifyViewController.m */; };
+		F013A8012059A9D200B2DBBF /* SetUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F013A8002059A9D200B2DBBF /* SetUserProfileViewController.m */; };
+		F01FFA58209E1030002A239D /* QLPreviewItemCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = F01FFA57209E1030002A239D /* QLPreviewItemCustom.m */; };
+		F027D27320531C8800D8E251 /* GroupPinBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F027D27220531C8800D8E251 /* GroupPinBoardViewController.m */; };
+		F027D27920582F5B00D8E251 /* MRZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F027D27820582F5B00D8E251 /* MRZoomScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F03729FC205C2FDD006557A7 /* localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = F03729FE205C2FDD006557A7 /* localization.strings */; };
+		F0372A01205C3270006557A7 /* SetupPrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0372A00205C3270006557A7 /* SetupPrivacyViewController.m */; };
+		F0372A07205C382D006557A7 /* MyPorfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0372A06205C382D006557A7 /* MyPorfileViewController.m */; };
+		F0372A0A2060F79C006557A7 /* GroupVRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0372A092060F79C006557A7 /* GroupVRCodeViewController.m */; };
+		F0372A0D20610ADF006557A7 /* UserDetailMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0372A0C20610ADF006557A7 /* UserDetailMoreViewController.m */; };
+		F0372A1020617015006557A7 /* AddFriendFromLocalContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0372A0F20617015006557A7 /* AddFriendFromLocalContactViewController.m */; };
+		F03B04FD2031ED24001A750C /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = F03B04F92031ED24001A750C /* CHANGELOG.md */; };
+		F03B04FE2031ED24001A750C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B04FB2031ED24001A750C /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F03B04FF2031ED24001A750C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F03B04FC2031ED24001A750C /* README.md */; };
+		F03B0530203F1972001A750C /* BiChatDataModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B052F203F1972001A750C /* BiChatDataModule.m */; };
+		F03B05342043F678001A750C /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = F03B05332043F678001A750C /* pinyin.c */; };
+		F03B05632043FB6C001A750C /* UserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03B05622043FB6C001A750C /* UserDetailViewController.m */; };
+		F04E0223204EE8CD004A7A27 /* GroupChatProperyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E0222204EE8CD004A7A27 /* GroupChatProperyViewController.m */; };
+		F04E0228204FBC6B004A7A27 /* GroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E0227204FBC6B004A7A27 /* GroupListViewController.m */; };
+		F04E022E204FCF54004A7A27 /* GroupNameChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E022D204FCF54004A7A27 /* GroupNameChangeViewController.m */; };
+		F04E02312051BA49004A7A27 /* MyWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E02302051BA49004A7A27 /* MyWalletViewController.m */; };
+		F04E02342051BA57004A7A27 /* MyFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E02332051BA57004A7A27 /* MyFavoriteViewController.m */; };
+		F04E02402051BEF5004A7A27 /* NicknameInGroupChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E023F2051BEF5004A7A27 /* NicknameInGroupChangeViewController.m */; };
+		F04E024920530EF1004A7A27 /* BiTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F04E024820530EF1004A7A27 /* BiTextView.m */; };
+		F061DA70208D15D20059E375 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F061DA6F208D15D20059E375 /* SystemConfiguration.framework */; };
+		F061DA72208D15E90059E375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F061DA71208D15E90059E375 /* Foundation.framework */; };
+		F061DA74208D15F80059E375 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F061DA73208D15F80059E375 /* UIKit.framework */; };
+		F061DA77208D1C420059E375 /* S3SDK_.m in Sources */ = {isa = PBXBuildFile; fileRef = F061DA76208D1C420059E375 /* S3SDK_.m */; };
+		F0715058208F77B000E6D38A /* TextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715057208F77B000E6D38A /* TextCell.m */; };
+		F071505B208F79BE00E6D38A /* TimeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F071505A208F79BE00E6D38A /* TimeCell.m */; };
+		F071505E208F7A3400E6D38A /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F071505D208F7A3400E6D38A /* ImageCell.m */; };
+		F0715061208F7A4000E6D38A /* SoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715060208F7A4000E6D38A /* SoundCell.m */; };
+		F0715064208F7A8C00E6D38A /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715063208F7A8C00E6D38A /* ChatCell.m */; };
+		F0715067208F93AE00E6D38A /* GroupEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715066208F93AE00E6D38A /* GroupEventCell.m */; };
+		F071506A208F942B00E6D38A /* SystemMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715069208F942B00E6D38A /* SystemMessageCell.m */; };
+		F071506D208F949100E6D38A /* RedPacketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F071506C208F949100E6D38A /* RedPacketCell.m */; };
+		F0715070208F96E900E6D38A /* RedPacketMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F071506F208F96E900E6D38A /* RedPacketMessageCell.m */; };
+		F0715073208F970000E6D38A /* TransferMoneyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715072208F970000E6D38A /* TransferMoneyCell.m */; };
+		F0715076208F970F00E6D38A /* TransferMoneyMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715075208F970F00E6D38A /* TransferMoneyMessageCell.m */; };
+		F0715079208F972300E6D38A /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715078208F972300E6D38A /* CardCell.m */; };
+		F071507C208F972E00E6D38A /* PositionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F071507B208F972E00E6D38A /* PositionCell.m */; };
+		F0715082208F976A00E6D38A /* FileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715081208F976A00E6D38A /* FileCell.m */; };
+		F0715085208F977F00E6D38A /* PublicNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715084208F977F00E6D38A /* PublicNewsCell.m */; };
+		F071508C208FA03000E6D38A /* MessageBundleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F071508B208FA03000E6D38A /* MessageBundleCell.m */; };
+		F071508F208FA20500E6D38A /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F071508E208FA20500E6D38A /* NewsCell.m */; };
+		F0715092208FA23E00E6D38A /* PublicMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0715091208FA23E00E6D38A /* PublicMessageCell.m */; };
+		F07150952091E75000E6D38A /* UserMemoNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07150942091E75000E6D38A /* UserMemoNameViewController.m */; };
+		F0759A10202C1B5200DDC067 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0759A0F202C1B5200DDC067 /* AppDelegate.m */; };
+		F0759A19202C1B5200DDC067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0759A17202C1B5200DDC067 /* Main.storyboard */; };
+		F0759A1B202C1B5200DDC067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0759A1A202C1B5200DDC067 /* Assets.xcassets */; };
+		F0759A1E202C1B5200DDC067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0759A1C202C1B5200DDC067 /* LaunchScreen.storyboard */; };
+		F0759A21202C1B5200DDC067 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0759A20202C1B5200DDC067 /* main.m */; };
+		F0759A28202C1D6C00DDC067 /* TTStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0759A27202C1D6C00DDC067 /* TTStreamer.framework */; };
+		F0759A2F202C1E4C00DDC067 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0759A2E202C1E4C00DDC067 /* ChatListViewController.m */; };
+		F0759A32202C1E5E00DDC067 /* ContactListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0759A31202C1E5E00DDC067 /* ContactListViewController.m */; };
+		F0759A35202C1E7400DDC067 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0759A34202C1E7400DDC067 /* DiscoveryViewController.m */; };
+		F0759A38202C1E8100DDC067 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0759A37202C1E8100DDC067 /* MyViewController.m */; };
+		F0759A3C202C1F0D00DDC067 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0759A3B202C1F0D00DDC067 /* LoginViewController.m */; };
+		F0759A40202C1F7D00DDC067 /* BiChatGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = F0759A3F202C1F7D00DDC067 /* BiChatGlobal.m */; };
+		F0855198206409EF00BCE1AE /* NetworkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F0855197206409EF00BCE1AE /* NetworkModule.m */; };
+		F085519B2066178B00BCE1AE /* ChatListNewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F085519A2066178B00BCE1AE /* ChatListNewFriendViewController.m */; };
+		F085519E20662AC200BCE1AE /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F085519C20662AC200BCE1AE /* ScanViewController.m */; };
+		F08551A12066B0B800BCE1AE /* GroupMemberSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08551A02066B0B800BCE1AE /* GroupMemberSelectorViewController.m */; };
+		F08551A42067465500BCE1AE /* SetGroupAvatarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08551A32067465500BCE1AE /* SetGroupAvatarViewController.m */; };
+		F0859D5F206D524F003580BB /* PaymentPasswordSetupStep1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0859D5E206D524F003580BB /* PaymentPasswordSetupStep1ViewController.m */; };
+		F0859D62206D5262003580BB /* PaymentPasswordSetupStep2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0859D61206D5262003580BB /* PaymentPasswordSetupStep2ViewController.m */; };
+		F0859D65206D5277003580BB /* PaymentPasswordSetupStep3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0859D64206D5277003580BB /* PaymentPasswordSetupStep3ViewController.m */; };
+		F0859D6F206D6E05003580BB /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0859D67206D6E05003580BB /* libWeChatSDK.a */; };
+		F0859D70206D6E05003580BB /* payRequsestHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = F0859D69206D6E05003580BB /* payRequsestHandler.mm */; };
+		F0859D71206D6E05003580BB /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F0859D6A206D6E05003580BB /* readme.txt */; };
+		F0859D72206D6E05003580BB /* TenpayUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = F0859D6C206D6E05003580BB /* TenpayUtil.mm */; };
+		F0859D7B206EBA9D003580BB /* TransferMoneySuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0859D7A206EBA9D003580BB /* TransferMoneySuccessViewController.m */; };
+		F08F810F208916F8001EE428 /* MyFollowedPublicAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08F810E208916F8001EE428 /* MyFollowedPublicAccountViewController.m */; };
+		F092B7E520453CC20061FE1F /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F092B7E420453CC20061FE1F /* AddFriendViewController.m */; };
+		F092B7E8204540F70061FE1F /* AddMemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F092B7E7204540F70061FE1F /* AddMemoViewController.m */; };
+		F092B7EB20459C2B0061FE1F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F092B7EA20459C2B0061FE1F /* RegisterViewController.m */; };
+		F092B7EE2045B2F00061FE1F /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F092B7ED2045B2F00061FE1F /* SetupViewController.m */; };
+		F092B7F12046E2C00061FE1F /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F092B7F02046E2C00061FE1F /* AlertView.m */; };
+		F0B17969206CD38F00E80FF6 /* TransferMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B17968206CD38F00E80FF6 /* TransferMoneyViewController.m */; };
+		F0B1796C206D48F300E80FF6 /* TransferMoneyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B1796B206D48F300E80FF6 /* TransferMoneyInfoViewController.m */; };
+		F0B1796F206D490300E80FF6 /* TransferMoneyConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B1796E206D490300E80FF6 /* TransferMoneyConfirmViewController.m */; };
+		F0CD15FC207F71A500A6E53E /* QuotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CD15FB207F71A500A6E53E /* QuotationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25C62C59E71D08777E022C3D /* Pods-BiChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiChat/Pods-BiChat.debug.xcconfig"; sourceTree = "<group>"; };
+		28096EC46443B9E37272D075 /* libPods-BiChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C00DD3D20905A59003FDFFD /* WPRedPacketTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketTableViewCell.h; sourceTree = "<group>"; };
+		5C00DD3E20905A59003FDFFD /* WPRedPacketTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketTableViewCell.m; sourceTree = "<group>"; };
+		5C00DD41209098E0003FDFFD /* WPRedPacketModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketModel.h; sourceTree = "<group>"; };
+		5C00DD42209098E0003FDFFD /* WPRedPacketModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketModel.m; sourceTree = "<group>"; };
+		5C00DD4420909E7B003FDFFD /* WPRedPacketHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketHeaderView.h; sourceTree = "<group>"; };
+		5C00DD4520909E7B003FDFFD /* WPRedPacketHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketHeaderView.m; sourceTree = "<group>"; };
+		5C012B51207B701700AB5A45 /* WPBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPBaseManager.h; sourceTree = "<group>"; };
+		5C012B52207B701700AB5A45 /* WPBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBaseManager.m; sourceTree = "<group>"; };
+		5C012B54207B8BE100AB5A45 /* NSDictionary+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Category.m"; sourceTree = "<group>"; };
+		5C012B55207B8BE100AB5A45 /* NSDictionary+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Category.h"; sourceTree = "<group>"; };
+		5C012B57207C8D8300AB5A45 /* WPBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPBaseTableViewCell.h; sourceTree = "<group>"; };
+		5C012B58207C8D8300AB5A45 /* WPBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBaseTableViewCell.m; sourceTree = "<group>"; };
+		5C0B647520A0159600ECE764 /* WPRedPacketSendCoinSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketSendCoinSelectView.h; sourceTree = "<group>"; };
+		5C0B647620A0159600ECE764 /* WPRedPacketSendCoinSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketSendCoinSelectView.m; sourceTree = "<group>"; };
+		5C0B647820A0175600ECE764 /* WPRedPacketCoinTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketCoinTableViewCell.h; sourceTree = "<group>"; };
+		5C0B647920A0175600ECE764 /* WPRedPacketCoinTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketCoinTableViewCell.m; sourceTree = "<group>"; };
+		5C0B647B20A157FB00ECE764 /* WPRedPacketSendReceiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketSendReceiveModel.h; sourceTree = "<group>"; };
+		5C0B647C20A157FB00ECE764 /* WPRedPacketSendReceiveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketSendReceiveModel.m; sourceTree = "<group>"; };
+		5C0B647E20A1585B00ECE764 /* WPRedPacketSendCoinModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketSendCoinModel.h; sourceTree = "<group>"; };
+		5C0B647F20A1585B00ECE764 /* WPRedPacketSendCoinModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketSendCoinModel.m; sourceTree = "<group>"; };
+		5C0B648120A17CE500ECE764 /* WPRedPacketPayWorkdInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketPayWorkdInputView.h; sourceTree = "<group>"; };
+		5C0B648220A17CE500ECE764 /* WPRedPacketPayWorkdInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketPayWorkdInputView.m; sourceTree = "<group>"; };
+		5C0B648420A1B89D00ECE764 /* WPRedPacketSendView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketSendView.h; sourceTree = "<group>"; };
+		5C0B648520A1B89D00ECE764 /* WPRedPacketSendView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketSendView.m; sourceTree = "<group>"; };
+		5C0B648720A2CC7B00ECE764 /* WPRedPacketRobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketRobViewController.h; sourceTree = "<group>"; };
+		5C0B648820A2CC7B00ECE764 /* WPRedPacketRobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketRobViewController.m; sourceTree = "<group>"; };
+		5C0B648A20A33B8F00ECE764 /* WPRedPacketRobView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketRobView.h; sourceTree = "<group>"; };
+		5C0B648B20A33B8F00ECE764 /* WPRedPacketRobView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketRobView.m; sourceTree = "<group>"; };
+		5C0B648D20A41F3A00ECE764 /* WPRedpacketRobRedPacketDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedpacketRobRedPacketDetailModel.h; sourceTree = "<group>"; };
+		5C0B648E20A41F3A00ECE764 /* WPRedpacketRobRedPacketDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedpacketRobRedPacketDetailModel.m; sourceTree = "<group>"; };
+		5C0B649020A5745900ECE764 /* WPRedPacketGetRedPacketPeopleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketGetRedPacketPeopleModel.h; sourceTree = "<group>"; };
+		5C0B649120A5745900ECE764 /* WPRedPacketGetRedPacketPeopleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketGetRedPacketPeopleModel.m; sourceTree = "<group>"; };
+		5C0B649320A5767C00ECE764 /* WPRedPacketDetalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketDetalTableViewCell.h; sourceTree = "<group>"; };
+		5C0B649420A5767C00ECE764 /* WPRedPacketDetalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketDetalTableViewCell.m; sourceTree = "<group>"; };
+		5C0B649620A6002100ECE764 /* ChatListGroupApproveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListGroupApproveViewController.m; sourceTree = "<group>"; };
+		5C0B649720A6002300ECE764 /* ChatListGroupApproveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListGroupApproveViewController.h; sourceTree = "<group>"; };
+		5C0B649B20A6014E00ECE764 /* RedPacketADCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketADCell.m; sourceTree = "<group>"; };
+		5C0B649C20A6014E00ECE764 /* RedPacketADCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketADCell.h; sourceTree = "<group>"; };
+		5C0B649F20A6027500ECE764 /* GroupApproveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupApproveViewController.h; sourceTree = "<group>"; };
+		5C0B64A020A6027500ECE764 /* GroupApproveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupApproveViewController.m; sourceTree = "<group>"; };
+		5C0B64A220A602D900ECE764 /* UnknownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownCell.m; sourceTree = "<group>"; };
+		5C0B64A320A602D900ECE764 /* UnknownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownCell.h; sourceTree = "<group>"; };
+		5C133C5C2086F81E00146AE7 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		5C133C5D2086F81F00146AE7 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		5C133C5F20870C4500146AE7 /* WPPublicAccountDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPPublicAccountDetailViewController.h; sourceTree = "<group>"; };
+		5C133C6020870C4500146AE7 /* WPPublicAccountDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPPublicAccountDetailViewController.m; sourceTree = "<group>"; };
+		5C133C62208713EA00146AE7 /* WPPublicAccountDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPPublicAccountDetailView.h; sourceTree = "<group>"; };
+		5C133C63208713EA00146AE7 /* WPPublicAccountDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPPublicAccountDetailView.m; sourceTree = "<group>"; };
+		5C133C682087362C00146AE7 /* UIImage+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		5C133C692087362C00146AE7 /* UIImage+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		5C133C6B20898D6C00146AE7 /* WPMemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPMemoViewController.h; sourceTree = "<group>"; };
+		5C133C6C20898D6C00146AE7 /* WPMemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPMemoViewController.m; sourceTree = "<group>"; };
+		5C133C6E2089A37A00146AE7 /* WPPublicAccountSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPPublicAccountSearchViewController.h; sourceTree = "<group>"; };
+		5C133C6F2089A37A00146AE7 /* WPPublicAccountSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPPublicAccountSearchViewController.m; sourceTree = "<group>"; };
+		5C3AF34020996980004B9A79 /* WPShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPShareView.h; sourceTree = "<group>"; };
+		5C3AF34120996980004B9A79 /* WPShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPShareView.m; sourceTree = "<group>"; };
+		5C6D552A209C4AB8001CA80A /* WPRedPacketSendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketSendViewController.h; sourceTree = "<group>"; };
+		5C6D552B209C4AB8001CA80A /* WPRedPacketSendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketSendViewController.m; sourceTree = "<group>"; };
+		5C6D5533209C87A1001CA80A /* NSString+Categroy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Categroy.h"; sourceTree = "<group>"; };
+		5C6D5534209C87A1001CA80A /* NSString+Categroy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Categroy.m"; sourceTree = "<group>"; };
+		5C6D5538209C963E001CA80A /* GroupAddMemberCancelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAddMemberCancelViewController.m; sourceTree = "<group>"; };
+		5C6D5539209C9641001CA80A /* GroupAddMemberCancelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAddMemberCancelViewController.h; sourceTree = "<group>"; };
+		5C7B2D4E2089C1DF00510503 /* WPPublicSearchResultTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPPublicSearchResultTableViewCell.h; sourceTree = "<group>"; };
+		5C7B2D4F2089C1DF00510503 /* WPPublicSearchResultTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPPublicSearchResultTableViewCell.m; sourceTree = "<group>"; };
+		5C7B2D512089C4C500510503 /* WPPublicSearchResultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPPublicSearchResultModel.h; sourceTree = "<group>"; };
+		5C7B2D522089C4C500510503 /* WPPublicSearchResultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPPublicSearchResultModel.m; sourceTree = "<group>"; };
+		5C7B488E20AEC55400C6428A /* ZYShareSheetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareSheetCell.m; sourceTree = "<group>"; };
+		5C7B488F20AEC55400C6428A /* ZYShareSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareSheetView.m; sourceTree = "<group>"; };
+		5C7B489020AEC55400C6428A /* ZYShareItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareItemCell.m; sourceTree = "<group>"; };
+		5C7B489120AEC55400C6428A /* ZYShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareView.m; sourceTree = "<group>"; };
+		5C7B489220AEC55400C6428A /* ZYShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYShareItem.m; sourceTree = "<group>"; };
+		5C7B489320AEC55400C6428A /* ZYShareSheetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareSheetCell.h; sourceTree = "<group>"; };
+		5C7B489420AEC55400C6428A /* ZYShareItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareItemCell.h; sourceTree = "<group>"; };
+		5C7B489520AEC55400C6428A /* ZYShareSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareSheetView.h; sourceTree = "<group>"; };
+		5C7B489620AEC55400C6428A /* ZYShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareView.h; sourceTree = "<group>"; };
+		5C7B489720AEC55400C6428A /* ZYShareViewDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareViewDefine.h; sourceTree = "<group>"; };
+		5C7B489820AEC55400C6428A /* ZYShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYShareItem.h; sourceTree = "<group>"; };
+		5C8E6A5C208442800067B80B /* WPNewsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPNewsDetailViewController.h; sourceTree = "<group>"; };
+		5C8E6A5D208442800067B80B /* WPNewsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPNewsDetailViewController.m; sourceTree = "<group>"; };
+		5CA4FF98208A068C00F23674 /* WPMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPMapViewController.h; sourceTree = "<group>"; };
+		5CA4FF99208A068C00F23674 /* WPMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPMapViewController.m; sourceTree = "<group>"; };
+		5CA4FF9B208A22F900F23674 /* WPGeoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPGeoTableViewCell.h; sourceTree = "<group>"; };
+		5CA4FF9C208A22F900F23674 /* WPGeoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPGeoTableViewCell.m; sourceTree = "<group>"; };
+		5CA96DD62079B742007D763E /* WPMenuHrizontal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPMenuHrizontal.h; sourceTree = "<group>"; };
+		5CA96DD72079B742007D763E /* WPMenuHrizontal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPMenuHrizontal.m; sourceTree = "<group>"; };
+		5CB5EE2F20A93DBB00623280 /* WPRedPacketErrorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketErrorView.h; sourceTree = "<group>"; };
+		5CB5EE3020A93DBB00623280 /* WPRedPacketErrorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketErrorView.m; sourceTree = "<group>"; };
+		5CB5EE3220AAC21D00623280 /* WPRedPacketTargetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPRedPacketTargetViewController.h; sourceTree = "<group>"; };
+		5CB5EE3320AAC21D00623280 /* WPRedPacketTargetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPRedPacketTargetViewController.m; sourceTree = "<group>"; };
+		5CB5EE3B20AE732D00623280 /* UIImageView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Category.h"; sourceTree = "<group>"; };
+		5CB5EE3C20AE732D00623280 /* UIImageView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Category.m"; sourceTree = "<group>"; };
+		5CB5EE4020AEACCA00623280 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		5CC11F5C208D886500411EAA /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		5CC11F67208EE88F00411EAA /* WPDiscoverTableViewCellType3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPDiscoverTableViewCellType3.h; sourceTree = "<group>"; };
+		5CC11F68208EE88F00411EAA /* WPDiscoverTableViewCellType3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPDiscoverTableViewCellType3.m; sourceTree = "<group>"; };
+		5CE1BB2720746E7A006B46E8 /* WPBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPBaseViewController.h; sourceTree = "<group>"; };
+		5CE1BB2820746E7A006B46E8 /* WPBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBaseViewController.m; sourceTree = "<group>"; };
+		5CE1BB2A20746E90006B46E8 /* WPBaseViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WPBaseViewController+Tracking.h"; sourceTree = "<group>"; };
+		5CE1BB2B20746E90006B46E8 /* WPBaseViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WPBaseViewController+Tracking.m"; sourceTree = "<group>"; };
+		5CE1BB2D20746FCE006B46E8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5CE1BB3420747FA4006B46E8 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		5CE1BB352074804E006B46E8 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		5CE1BB362074804E006B46E8 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		5CE1BB38207481D8006B46E8 /* WPDiscoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPDiscoverView.h; sourceTree = "<group>"; };
+		5CE1BB39207481D8006B46E8 /* WPDiscoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPDiscoverView.m; sourceTree = "<group>"; };
+		5CE1BB3E20748341006B46E8 /* WPBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPBaseTableView.h; sourceTree = "<group>"; };
+		5CE1BB3F20748341006B46E8 /* WPBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPBaseTableView.m; sourceTree = "<group>"; };
+		5CE1BB4120749EA9006B46E8 /* WPDiscoverTableViewCellType1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPDiscoverTableViewCellType1.h; sourceTree = "<group>"; };
+		5CE1BB4220749EA9006B46E8 /* WPDiscoverTableViewCellType1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPDiscoverTableViewCellType1.m; sourceTree = "<group>"; };
+		5CE1BB4420749EBC006B46E8 /* WPDiscoverTableViewCellType2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPDiscoverTableViewCellType2.h; sourceTree = "<group>"; };
+		5CE1BB4520749EBC006B46E8 /* WPDiscoverTableViewCellType2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPDiscoverTableViewCellType2.m; sourceTree = "<group>"; };
+		5CE1BB472074A67B006B46E8 /* WPDiscoverModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPDiscoverModel.h; sourceTree = "<group>"; };
+		5CE1BB482074A67B006B46E8 /* WPDiscoverModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPDiscoverModel.m; sourceTree = "<group>"; };
+		76D5C0595325E34AFDB89092 /* Pods-BiChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiChat/Pods-BiChat.release.xcconfig"; sourceTree = "<group>"; };
+		8416020420A044AD00F690C4 /* ChatCellDef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatCellDef.h; sourceTree = "<group>"; };
+		8416020520A0794600F690C4 /* GroupAddMemberConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAddMemberConfirmViewController.h; sourceTree = "<group>"; };
+		8416020620A0794600F690C4 /* GroupAddMemberConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAddMemberConfirmViewController.m; sourceTree = "<group>"; };
+		8416020820A09B2700F690C4 /* FileDeleteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileDeleteCell.h; sourceTree = "<group>"; };
+		8416020920A09B2700F690C4 /* FileDeleteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileDeleteCell.m; sourceTree = "<group>"; };
+		841A55B6206B85F500AAB2E3 /* ReceiveRedPacketWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveRedPacketWebViewController.h; sourceTree = "<group>"; };
+		841A55B7206B85F500AAB2E3 /* ReceiveRedPacketWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiveRedPacketWebViewController.m; sourceTree = "<group>"; };
+		841A55B9206B905900AAB2E3 /* MyWalletAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWalletAccountViewController.h; sourceTree = "<group>"; };
+		841A55BA206B905900AAB2E3 /* MyWalletAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWalletAccountViewController.m; sourceTree = "<group>"; };
+		841A55BC206DF8E500AAB2E3 /* MyWeChatBindingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWeChatBindingViewController.h; sourceTree = "<group>"; };
+		841A55BD206DF8E500AAB2E3 /* MyWeChatBindingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeChatBindingViewController.m; sourceTree = "<group>"; };
+		841A55C2206E1A7600AAB2E3 /* MyWalletCoinInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWalletCoinInfoViewController.h; sourceTree = "<group>"; };
+		841A55C3206E1A7600AAB2E3 /* MyWalletCoinInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWalletCoinInfoViewController.m; sourceTree = "<group>"; };
+		841A55C5206E44BB00AAB2E3 /* CoinSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinSelectViewController.h; sourceTree = "<group>"; };
+		841A55C6206E44BB00AAB2E3 /* CoinSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinSelectViewController.m; sourceTree = "<group>"; };
+		841A55C82072481E00AAB2E3 /* BindWeChat@RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BindWeChat@RegisterViewController.h"; sourceTree = "<group>"; };
+		841A55C92072481E00AAB2E3 /* BindWeChat@RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BindWeChat@RegisterViewController.m"; sourceTree = "<group>"; };
+		841A55CB2072549900AAB2E3 /* MyWalletSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWalletSetupViewController.h; sourceTree = "<group>"; };
+		841A55CC2072549900AAB2E3 /* MyWalletSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWalletSetupViewController.m; sourceTree = "<group>"; };
+		841A55CE207A547D00AAB2E3 /* ConbineMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConbineMessageViewController.h; sourceTree = "<group>"; };
+		841A55CF207A547D00AAB2E3 /* ConbineMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConbineMessageViewController.m; sourceTree = "<group>"; };
+		841A55D1207B564E00AAB2E3 /* ChatListFoldFriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListFoldFriendViewController.h; sourceTree = "<group>"; };
+		841A55D2207B564E00AAB2E3 /* ChatListFoldFriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListFoldFriendViewController.m; sourceTree = "<group>"; };
+		8445AA2920651B5000096469 /* MySignSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySignSetupViewController.h; sourceTree = "<group>"; };
+		8445AA2A20651B5000096469 /* MySignSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySignSetupViewController.m; sourceTree = "<group>"; };
+		8445AA2C2065256B00096469 /* GroupSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupSetupViewController.h; sourceTree = "<group>"; };
+		8445AA2D2065256B00096469 /* GroupSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupSetupViewController.m; sourceTree = "<group>"; };
+		8445AA2F2065539000096469 /* AllGroupMemberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllGroupMemberViewController.h; sourceTree = "<group>"; };
+		8445AA302065539000096469 /* AllGroupMemberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllGroupMemberViewController.m; sourceTree = "<group>"; };
+		845030D420A978C7009B4CDC /* ChatFoldSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatFoldSelectViewController.h; sourceTree = "<group>"; };
+		845030D520A978C7009B4CDC /* ChatFoldSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatFoldSelectViewController.m; sourceTree = "<group>"; };
+		845030D720A978D9009B4CDC /* ChatNewFriendSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatNewFriendSelectViewController.h; sourceTree = "<group>"; };
+		845030D820A978D9009B4CDC /* ChatNewFriendSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatNewFriendSelectViewController.m; sourceTree = "<group>"; };
+		845030DD20AAD2EF009B4CDC /* ChatGroupManageSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatGroupManageSelectViewController.h; sourceTree = "<group>"; };
+		845030DE20AAD2EF009B4CDC /* ChatGroupManageSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatGroupManageSelectViewController.m; sourceTree = "<group>"; };
+		846F4CF0205A4F9F00351726 /* CountrySelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountrySelectorViewController.h; sourceTree = "<group>"; };
+		846F4CF1205A4F9F00351726 /* CountrySelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountrySelectorViewController.m; sourceTree = "<group>"; };
+		846F4CF3205A6D8700351726 /* SetUserAvatarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetUserAvatarViewController.h; sourceTree = "<group>"; };
+		846F4CF4205A6D8700351726 /* SetUserAvatarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetUserAvatarViewController.m; sourceTree = "<group>"; };
+		846F4CF7205A7D7800351726 /* RedPacketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedPacketViewController.h; sourceTree = "<group>"; };
+		846F4CF8205A7D7800351726 /* RedPacketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPacketViewController.m; sourceTree = "<group>"; };
+		846F4CFA205FB1C300351726 /* MyBlackListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyBlackListViewController.h; sourceTree = "<group>"; };
+		846F4CFB205FB1C300351726 /* MyBlackListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBlackListViewController.m; sourceTree = "<group>"; };
+		84B05CD420623A9000D386E1 /* GroupMemberDeleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupMemberDeleteViewController.h; sourceTree = "<group>"; };
+		84B05CD520623A9000D386E1 /* GroupMemberDeleteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupMemberDeleteViewController.m; sourceTree = "<group>"; };
+		84C0AB262089A91300A7E0D3 /* ChatPropertyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatPropertyViewController.h; sourceTree = "<group>"; };
+		84C0AB272089A91300A7E0D3 /* ChatPropertyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatPropertyViewController.m; sourceTree = "<group>"; };
+		84C0AB2F209300D000A7E0D3 /* GroupAddMemberApplyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAddMemberApplyCell.h; sourceTree = "<group>"; };
+		84C0AB30209300D000A7E0D3 /* GroupAddMemberApplyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAddMemberApplyCell.m; sourceTree = "<group>"; };
+		84C0AB3220930E6500A7E0D3 /* GroupAddMemberApplyInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupAddMemberApplyInfoViewController.h; sourceTree = "<group>"; };
+		84C0AB3320930E6500A7E0D3 /* GroupAddMemberApplyInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupAddMemberApplyInfoViewController.m; sourceTree = "<group>"; };
+		84CA139920AC1D2600977821 /* VirtualGroupListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualGroupListViewController.h; sourceTree = "<group>"; };
+		84CA139A20AC1D2600977821 /* VirtualGroupListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualGroupListViewController.m; sourceTree = "<group>"; };
+		84CA139C20AC54B200977821 /* VirtualGroupSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualGroupSetupViewController.h; sourceTree = "<group>"; };
+		84CA139D20AC54B200977821 /* VirtualGroupSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualGroupSetupViewController.m; sourceTree = "<group>"; };
+		84ECFB432080708400132D7C /* QuotationViewLit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuotationViewLit.h; sourceTree = "<group>"; };
+		84ECFB442080708400132D7C /* QuotationViewLit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuotationViewLit.m; sourceTree = "<group>"; };
+		84EE99362067B18600EC1746 /* ChatSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatSelectViewController.h; sourceTree = "<group>"; };
+		84EE99372067B18600EC1746 /* ChatSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatSelectViewController.m; sourceTree = "<group>"; };
+		84EE993A2068D82300EC1746 /* SendRedPacketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendRedPacketViewController.h; sourceTree = "<group>"; };
+		84EE993B2068D82300EC1746 /* SendRedPacketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendRedPacketViewController.m; sourceTree = "<group>"; };
+		84EE9940206B57D700EC1746 /* SendRedPacketWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SendRedPacketWebViewController.h; sourceTree = "<group>"; };
+		84EE9941206B57D700EC1746 /* SendRedPacketWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendRedPacketWebViewController.m; sourceTree = "<group>"; };
+		84EE9946206B589D00EC1746 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		84EE9947206B589D00EC1746 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		84EE9948206B589D00EC1746 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		84EE9949206B589D00EC1746 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		84EE994A206B589D00EC1746 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		84EE994B206B589D00EC1746 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		84EE994C206B589D00EC1746 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		84EE994D206B589D00EC1746 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		84EE9953206B5B0300EC1746 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F013A7FC20599BCA00B2DBBF /* VerifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerifyViewController.h; sourceTree = "<group>"; };
+		F013A7FD20599BCA00B2DBBF /* VerifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerifyViewController.m; sourceTree = "<group>"; };
+		F013A7FF2059A9D200B2DBBF /* SetUserProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetUserProfileViewController.h; sourceTree = "<group>"; };
+		F013A8002059A9D200B2DBBF /* SetUserProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetUserProfileViewController.m; sourceTree = "<group>"; };
+		F01FFA56209E1030002A239D /* QLPreviewItemCustom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLPreviewItemCustom.h; sourceTree = "<group>"; };
+		F01FFA57209E1030002A239D /* QLPreviewItemCustom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLPreviewItemCustom.m; sourceTree = "<group>"; };
+		F027D27120531C8800D8E251 /* GroupPinBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupPinBoardViewController.h; sourceTree = "<group>"; };
+		F027D27220531C8800D8E251 /* GroupPinBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupPinBoardViewController.m; sourceTree = "<group>"; };
+		F027D27720582F5B00D8E251 /* MRZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRZoomScrollView.h; sourceTree = "<group>"; };
+		F027D27820582F5B00D8E251 /* MRZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRZoomScrollView.m; sourceTree = "<group>"; };
+		F03729FD205C2FDD006557A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/localization.strings; sourceTree = "<group>"; };
+		F03729FF205C3270006557A7 /* SetupPrivacyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetupPrivacyViewController.h; sourceTree = "<group>"; };
+		F0372A00205C3270006557A7 /* SetupPrivacyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetupPrivacyViewController.m; sourceTree = "<group>"; };
+		F0372A05205C382D006557A7 /* MyPorfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPorfileViewController.h; sourceTree = "<group>"; };
+		F0372A06205C382D006557A7 /* MyPorfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPorfileViewController.m; sourceTree = "<group>"; };
+		F0372A082060F79C006557A7 /* GroupVRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupVRCodeViewController.h; sourceTree = "<group>"; };
+		F0372A092060F79C006557A7 /* GroupVRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupVRCodeViewController.m; sourceTree = "<group>"; };
+		F0372A0B20610ADF006557A7 /* UserDetailMoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailMoreViewController.h; sourceTree = "<group>"; };
+		F0372A0C20610ADF006557A7 /* UserDetailMoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailMoreViewController.m; sourceTree = "<group>"; };
+		F0372A0E20617015006557A7 /* AddFriendFromLocalContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddFriendFromLocalContactViewController.h; sourceTree = "<group>"; };
+		F0372A0F20617015006557A7 /* AddFriendFromLocalContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddFriendFromLocalContactViewController.m; sourceTree = "<group>"; };
+		F03B04F92031ED24001A750C /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		F03B04FA2031ED24001A750C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		F03B04FB2031ED24001A750C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		F03B04FC2031ED24001A750C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F03B052B2031FE8C001A750C /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		F03B052C2031FE8C001A750C /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		F03B052E203F1972001A750C /* BiChatDataModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BiChatDataModule.h; sourceTree = "<group>"; };
+		F03B052F203F1972001A750C /* BiChatDataModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiChatDataModule.m; sourceTree = "<group>"; };
+		F03B05322043F678001A750C /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		F03B05332043F678001A750C /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		F03B05612043FB6C001A750C /* UserDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailViewController.h; sourceTree = "<group>"; };
+		F03B05622043FB6C001A750C /* UserDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailViewController.m; sourceTree = "<group>"; };
+		F04E0221204EE8CD004A7A27 /* GroupChatProperyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupChatProperyViewController.h; sourceTree = "<group>"; };
+		F04E0222204EE8CD004A7A27 /* GroupChatProperyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupChatProperyViewController.m; sourceTree = "<group>"; };
+		F04E0226204FBC6B004A7A27 /* GroupListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupListViewController.h; sourceTree = "<group>"; };
+		F04E0227204FBC6B004A7A27 /* GroupListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupListViewController.m; sourceTree = "<group>"; };
+		F04E022C204FCF54004A7A27 /* GroupNameChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupNameChangeViewController.h; sourceTree = "<group>"; };
+		F04E022D204FCF54004A7A27 /* GroupNameChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupNameChangeViewController.m; sourceTree = "<group>"; };
+		F04E022F2051BA49004A7A27 /* MyWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWalletViewController.h; sourceTree = "<group>"; };
+		F04E02302051BA49004A7A27 /* MyWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWalletViewController.m; sourceTree = "<group>"; };
+		F04E02322051BA57004A7A27 /* MyFavoriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFavoriteViewController.h; sourceTree = "<group>"; };
+		F04E02332051BA57004A7A27 /* MyFavoriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFavoriteViewController.m; sourceTree = "<group>"; };
+		F04E023E2051BEF5004A7A27 /* NicknameInGroupChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NicknameInGroupChangeViewController.h; sourceTree = "<group>"; };
+		F04E023F2051BEF5004A7A27 /* NicknameInGroupChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NicknameInGroupChangeViewController.m; sourceTree = "<group>"; };
+		F04E02412052718A004A7A27 /* UFileSDK_.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UFileSDK_.h; sourceTree = "<group>"; };
+		F04E02422052718A004A7A27 /* UFileSDK_.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UFileSDK_.m; sourceTree = "<group>"; };
+		F04E024720530EF1004A7A27 /* BiTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BiTextView.h; sourceTree = "<group>"; };
+		F04E024820530EF1004A7A27 /* BiTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiTextView.m; sourceTree = "<group>"; };
+		F061DA6F208D15D20059E375 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F061DA71208D15E90059E375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F061DA73208D15F80059E375 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F061DA75208D1C420059E375 /* S3SDK_.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S3SDK_.h; sourceTree = "<group>"; };
+		F061DA76208D1C420059E375 /* S3SDK_.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = S3SDK_.m; sourceTree = "<group>"; };
+		F0715056208F77B000E6D38A /* TextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextCell.h; sourceTree = "<group>"; };
+		F0715057208F77B000E6D38A /* TextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextCell.m; sourceTree = "<group>"; };
+		F0715059208F79BE00E6D38A /* TimeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeCell.h; sourceTree = "<group>"; };
+		F071505A208F79BE00E6D38A /* TimeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeCell.m; sourceTree = "<group>"; };
+		F071505C208F7A3400E6D38A /* ImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		F071505D208F7A3400E6D38A /* ImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		F071505F208F7A4000E6D38A /* SoundCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundCell.h; sourceTree = "<group>"; };
+		F0715060208F7A4000E6D38A /* SoundCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundCell.m; sourceTree = "<group>"; };
+		F0715062208F7A8C00E6D38A /* ChatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		F0715063208F7A8C00E6D38A /* ChatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		F0715065208F93AE00E6D38A /* GroupEventCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupEventCell.h; sourceTree = "<group>"; };
+		F0715066208F93AE00E6D38A /* GroupEventCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupEventCell.m; sourceTree = "<group>"; };
+		F0715068208F942B00E6D38A /* SystemMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemMessageCell.h; sourceTree = "<group>"; };
+		F0715069208F942B00E6D38A /* SystemMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemMessageCell.m; sourceTree = "<group>"; };
+		F071506B208F949100E6D38A /* RedPacketCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedPacketCell.h; sourceTree = "<group>"; };
+		F071506C208F949100E6D38A /* RedPacketCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPacketCell.m; sourceTree = "<group>"; };
+		F071506E208F96E900E6D38A /* RedPacketMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedPacketMessageCell.h; sourceTree = "<group>"; };
+		F071506F208F96E900E6D38A /* RedPacketMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPacketMessageCell.m; sourceTree = "<group>"; };
+		F0715071208F970000E6D38A /* TransferMoneyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferMoneyCell.h; sourceTree = "<group>"; };
+		F0715072208F970000E6D38A /* TransferMoneyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferMoneyCell.m; sourceTree = "<group>"; };
+		F0715074208F970F00E6D38A /* TransferMoneyMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferMoneyMessageCell.h; sourceTree = "<group>"; };
+		F0715075208F970F00E6D38A /* TransferMoneyMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferMoneyMessageCell.m; sourceTree = "<group>"; };
+		F0715077208F972300E6D38A /* CardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		F0715078208F972300E6D38A /* CardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		F071507A208F972E00E6D38A /* PositionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PositionCell.h; sourceTree = "<group>"; };
+		F071507B208F972E00E6D38A /* PositionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PositionCell.m; sourceTree = "<group>"; };
+		F0715080208F976A00E6D38A /* FileCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileCell.h; sourceTree = "<group>"; };
+		F0715081208F976A00E6D38A /* FileCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileCell.m; sourceTree = "<group>"; };
+		F0715083208F977F00E6D38A /* PublicNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicNewsCell.h; sourceTree = "<group>"; };
+		F0715084208F977F00E6D38A /* PublicNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicNewsCell.m; sourceTree = "<group>"; };
+		F071508A208FA03000E6D38A /* MessageBundleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageBundleCell.h; sourceTree = "<group>"; };
+		F071508B208FA03000E6D38A /* MessageBundleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageBundleCell.m; sourceTree = "<group>"; };
+		F071508D208FA20500E6D38A /* NewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		F071508E208FA20500E6D38A /* NewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		F0715090208FA23E00E6D38A /* PublicMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicMessageCell.h; sourceTree = "<group>"; };
+		F0715091208FA23E00E6D38A /* PublicMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicMessageCell.m; sourceTree = "<group>"; };
+		F07150932091E75000E6D38A /* UserMemoNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserMemoNameViewController.h; sourceTree = "<group>"; };
+		F07150942091E75000E6D38A /* UserMemoNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserMemoNameViewController.m; sourceTree = "<group>"; };
+		F0759A0B202C1B5200DDC067 /* BiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0759A0E202C1B5200DDC067 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0759A0F202C1B5200DDC067 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0759A18202C1B5200DDC067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0759A1A202C1B5200DDC067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0759A1D202C1B5200DDC067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0759A1F202C1B5200DDC067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0759A20202C1B5200DDC067 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0759A27202C1D6C00DDC067 /* TTStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TTStreamer.framework; sourceTree = "<group>"; };
+		F0759A2D202C1E4C00DDC067 /* ChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
+		F0759A2E202C1E4C00DDC067 /* ChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
+		F0759A30202C1E5E00DDC067 /* ContactListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactListViewController.h; sourceTree = "<group>"; };
+		F0759A31202C1E5E00DDC067 /* ContactListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactListViewController.m; sourceTree = "<group>"; };
+		F0759A33202C1E7400DDC067 /* DiscoveryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		F0759A34202C1E7400DDC067 /* DiscoveryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		F0759A36202C1E8100DDC067 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		F0759A37202C1E8100DDC067 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		F0759A3A202C1F0D00DDC067 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		F0759A3B202C1F0D00DDC067 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F0759A3E202C1F7D00DDC067 /* BiChatGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BiChatGlobal.h; sourceTree = "<group>"; };
+		F0759A3F202C1F7D00DDC067 /* BiChatGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BiChatGlobal.m; sourceTree = "<group>"; };
+		F0855196206409EF00BCE1AE /* NetworkModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkModule.h; sourceTree = "<group>"; };
+		F0855197206409EF00BCE1AE /* NetworkModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkModule.m; sourceTree = "<group>"; };
+		F08551992066178B00BCE1AE /* ChatListNewFriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListNewFriendViewController.h; sourceTree = "<group>"; };
+		F085519A2066178B00BCE1AE /* ChatListNewFriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListNewFriendViewController.m; sourceTree = "<group>"; };
+		F085519C20662AC200BCE1AE /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		F085519D20662AC200BCE1AE /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		F085519F2066B0B800BCE1AE /* GroupMemberSelectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupMemberSelectorViewController.h; sourceTree = "<group>"; };
+		F08551A02066B0B800BCE1AE /* GroupMemberSelectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupMemberSelectorViewController.m; sourceTree = "<group>"; };
+		F08551A22067465500BCE1AE /* SetGroupAvatarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetGroupAvatarViewController.h; sourceTree = "<group>"; };
+		F08551A32067465500BCE1AE /* SetGroupAvatarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetGroupAvatarViewController.m; sourceTree = "<group>"; };
+		F0859D5D206D524F003580BB /* PaymentPasswordSetupStep1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentPasswordSetupStep1ViewController.h; sourceTree = "<group>"; };
+		F0859D5E206D524F003580BB /* PaymentPasswordSetupStep1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentPasswordSetupStep1ViewController.m; sourceTree = "<group>"; };
+		F0859D60206D5262003580BB /* PaymentPasswordSetupStep2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentPasswordSetupStep2ViewController.h; sourceTree = "<group>"; };
+		F0859D61206D5262003580BB /* PaymentPasswordSetupStep2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentPasswordSetupStep2ViewController.m; sourceTree = "<group>"; };
+		F0859D63206D5277003580BB /* PaymentPasswordSetupStep3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentPasswordSetupStep3ViewController.h; sourceTree = "<group>"; };
+		F0859D64206D5277003580BB /* PaymentPasswordSetupStep3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaymentPasswordSetupStep3ViewController.m; sourceTree = "<group>"; };
+		F0859D67206D6E05003580BB /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		F0859D68206D6E05003580BB /* payRequsestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payRequsestHandler.h; sourceTree = "<group>"; };
+		F0859D69206D6E05003580BB /* payRequsestHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = payRequsestHandler.mm; sourceTree = "<group>"; };
+		F0859D6A206D6E05003580BB /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		F0859D6B206D6E05003580BB /* TenpayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenpayUtil.h; sourceTree = "<group>"; };
+		F0859D6C206D6E05003580BB /* TenpayUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TenpayUtil.mm; sourceTree = "<group>"; };
+		F0859D6D206D6E05003580BB /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		F0859D6E206D6E05003580BB /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		F0859D73206D6F7A003580BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		F0859D74206D6F7A003580BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F0859D75206D6F7A003580BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/localization.strings"; sourceTree = "<group>"; };
+		F0859D76206D6F83003580BB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		F0859D77206D6F83003580BB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		F0859D78206D6F83003580BB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/localization.strings"; sourceTree = "<group>"; };
+		F0859D79206EBA9D003580BB /* TransferMoneySuccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferMoneySuccessViewController.h; sourceTree = "<group>"; };
+		F0859D7A206EBA9D003580BB /* TransferMoneySuccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferMoneySuccessViewController.m; sourceTree = "<group>"; };
+		F08F810D208916F8001EE428 /* MyFollowedPublicAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFollowedPublicAccountViewController.h; sourceTree = "<group>"; };
+		F08F810E208916F8001EE428 /* MyFollowedPublicAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFollowedPublicAccountViewController.m; sourceTree = "<group>"; };
+		F092B7E320453CC20061FE1F /* AddFriendViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		F092B7E420453CC20061FE1F /* AddFriendViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		F092B7E6204540F70061FE1F /* AddMemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddMemoViewController.h; sourceTree = "<group>"; };
+		F092B7E7204540F70061FE1F /* AddMemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddMemoViewController.m; sourceTree = "<group>"; };
+		F092B7E920459C2B0061FE1F /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		F092B7EA20459C2B0061FE1F /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		F092B7EC2045B2F00061FE1F /* SetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		F092B7ED2045B2F00061FE1F /* SetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		F092B7EF2046E2C00061FE1F /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		F092B7F02046E2C00061FE1F /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		F0B17967206CD38F00E80FF6 /* TransferMoneyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferMoneyViewController.h; sourceTree = "<group>"; };
+		F0B17968206CD38F00E80FF6 /* TransferMoneyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferMoneyViewController.m; sourceTree = "<group>"; };
+		F0B1796A206D48F300E80FF6 /* TransferMoneyInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferMoneyInfoViewController.h; sourceTree = "<group>"; };
+		F0B1796B206D48F300E80FF6 /* TransferMoneyInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferMoneyInfoViewController.m; sourceTree = "<group>"; };
+		F0B1796D206D490300E80FF6 /* TransferMoneyConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferMoneyConfirmViewController.h; sourceTree = "<group>"; };
+		F0B1796E206D490300E80FF6 /* TransferMoneyConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferMoneyConfirmViewController.m; sourceTree = "<group>"; };
+		F0CD15FA207F71A500A6E53E /* QuotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuotationView.h; sourceTree = "<group>"; };
+		F0CD15FB207F71A500A6E53E /* QuotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuotationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0759A08202C1B5200DDC067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F061DA74208D15F80059E375 /* UIKit.framework in Frameworks */,
+				F061DA72208D15E90059E375 /* Foundation.framework in Frameworks */,
+				F061DA70208D15D20059E375 /* SystemConfiguration.framework in Frameworks */,
+				84EE9954206B5B0300EC1746 /* WebKit.framework in Frameworks */,
+				F0759A28202C1D6C00DDC067 /* TTStreamer.framework in Frameworks */,
+				F0859D6F206D6E05003580BB /* libWeChatSDK.a in Frameworks */,
+				44569183BD92E9B632F3A88E /* libPods-BiChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C00DD3C20905A36003FDFFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C00DD3D20905A59003FDFFD /* WPRedPacketTableViewCell.h */,
+				5C00DD3E20905A59003FDFFD /* WPRedPacketTableViewCell.m */,
+				5C00DD4420909E7B003FDFFD /* WPRedPacketHeaderView.h */,
+				5C00DD4520909E7B003FDFFD /* WPRedPacketHeaderView.m */,
+				5C0B648420A1B89D00ECE764 /* WPRedPacketSendView.h */,
+				5C0B648520A1B89D00ECE764 /* WPRedPacketSendView.m */,
+				5C0B647520A0159600ECE764 /* WPRedPacketSendCoinSelectView.h */,
+				5C0B647620A0159600ECE764 /* WPRedPacketSendCoinSelectView.m */,
+				5C0B647820A0175600ECE764 /* WPRedPacketCoinTableViewCell.h */,
+				5C0B647920A0175600ECE764 /* WPRedPacketCoinTableViewCell.m */,
+				5C0B648120A17CE500ECE764 /* WPRedPacketPayWorkdInputView.h */,
+				5C0B648220A17CE500ECE764 /* WPRedPacketPayWorkdInputView.m */,
+				5C0B648A20A33B8F00ECE764 /* WPRedPacketRobView.h */,
+				5C0B648B20A33B8F00ECE764 /* WPRedPacketRobView.m */,
+				5C0B649320A5767C00ECE764 /* WPRedPacketDetalTableViewCell.h */,
+				5C0B649420A5767C00ECE764 /* WPRedPacketDetalTableViewCell.m */,
+				5CB5EE2F20A93DBB00623280 /* WPRedPacketErrorView.h */,
+				5CB5EE3020A93DBB00623280 /* WPRedPacketErrorView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C00DD40209098B4003FDFFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C00DD41209098E0003FDFFD /* WPRedPacketModel.h */,
+				5C00DD42209098E0003FDFFD /* WPRedPacketModel.m */,
+				5C0B647B20A157FB00ECE764 /* WPRedPacketSendReceiveModel.h */,
+				5C0B647C20A157FB00ECE764 /* WPRedPacketSendReceiveModel.m */,
+				5C0B647E20A1585B00ECE764 /* WPRedPacketSendCoinModel.h */,
+				5C0B647F20A1585B00ECE764 /* WPRedPacketSendCoinModel.m */,
+				5C0B648D20A41F3A00ECE764 /* WPRedpacketRobRedPacketDetailModel.h */,
+				5C0B648E20A41F3A00ECE764 /* WPRedpacketRobRedPacketDetailModel.m */,
+				5C0B649020A5745900ECE764 /* WPRedPacketGetRedPacketPeopleModel.h */,
+				5C0B649120A5745900ECE764 /* WPRedPacketGetRedPacketPeopleModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C6D5529209C4A9C001CA80A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D552A209C4AB8001CA80A /* WPRedPacketSendViewController.h */,
+				5C6D552B209C4AB8001CA80A /* WPRedPacketSendViewController.m */,
+				5C0B648720A2CC7B00ECE764 /* WPRedPacketRobViewController.h */,
+				5C0B648820A2CC7B00ECE764 /* WPRedPacketRobViewController.m */,
+				5CB5EE3220AAC21D00623280 /* WPRedPacketTargetViewController.h */,
+				5CB5EE3320AAC21D00623280 /* WPRedPacketTargetViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5C7B488D20AEC55400C6428A /* ZYShareView */ = {
+			isa = PBXGroup;
+			children = (
+				5C7B488E20AEC55400C6428A /* ZYShareSheetCell.m */,
+				5C7B488F20AEC55400C6428A /* ZYShareSheetView.m */,
+				5C7B489020AEC55400C6428A /* ZYShareItemCell.m */,
+				5C7B489120AEC55400C6428A /* ZYShareView.m */,
+				5C7B489220AEC55400C6428A /* ZYShareItem.m */,
+				5C7B489320AEC55400C6428A /* ZYShareSheetCell.h */,
+				5C7B489420AEC55400C6428A /* ZYShareItemCell.h */,
+				5C7B489520AEC55400C6428A /* ZYShareSheetView.h */,
+				5C7B489620AEC55400C6428A /* ZYShareView.h */,
+				5C7B489720AEC55400C6428A /* ZYShareViewDefine.h */,
+				5C7B489820AEC55400C6428A /* ZYShareItem.h */,
+			);
+			name = ZYShareView;
+			path = "../../../Downloads/ZYShareView-master/ZYShareView";
+			sourceTree = "<group>";
+		};
+		5CA96DD52079B71C007D763E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5CC11F5C208D886500411EAA /* mapapi.bundle */,
+				5CA96DD62079B742007D763E /* WPMenuHrizontal.h */,
+				5CA96DD72079B742007D763E /* WPMenuHrizontal.m */,
+				5C3AF34020996980004B9A79 /* WPShareView.h */,
+				5C3AF34120996980004B9A79 /* WPShareView.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5CB5EE3F20AEACCA00623280 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				5C7B488D20AEC55400C6428A /* ZYShareView */,
+				5CB5EE4020AEACCA00623280 /* mapapi.bundle */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		5CE1BB1E2074686A006B46E8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1BB3420747FA4006B46E8 /* Common.h */,
+				5C012B55207B8BE100AB5A45 /* NSDictionary+Category.h */,
+				5C012B54207B8BE100AB5A45 /* NSDictionary+Category.m */,
+				5CE1BB2A20746E90006B46E8 /* WPBaseViewController+Tracking.h */,
+				5CE1BB2B20746E90006B46E8 /* WPBaseViewController+Tracking.m */,
+				5CE1BB352074804E006B46E8 /* UIColor+Category.h */,
+				5CE1BB362074804E006B46E8 /* UIColor+Category.m */,
+				5C133C5C2086F81E00146AE7 /* UIViewController+BackButtonHandler.h */,
+				5C133C5D2086F81F00146AE7 /* UIViewController+BackButtonHandler.m */,
+				5C133C682087362C00146AE7 /* UIImage+Category.h */,
+				5C133C692087362C00146AE7 /* UIImage+Category.m */,
+				5C6D5533209C87A1001CA80A /* NSString+Categroy.h */,
+				5C6D5534209C87A1001CA80A /* NSString+Categroy.m */,
+				5CB5EE3B20AE732D00623280 /* UIImageView+Category.h */,
+				5CB5EE3C20AE732D00623280 /* UIImageView+Category.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5CE1BB2020746A31006B46E8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1BB3E20748341006B46E8 /* WPBaseTableView.h */,
+				5CE1BB3F20748341006B46E8 /* WPBaseTableView.m */,
+				5CE1BB2720746E7A006B46E8 /* WPBaseViewController.h */,
+				5CE1BB2820746E7A006B46E8 /* WPBaseViewController.m */,
+				5C012B51207B701700AB5A45 /* WPBaseManager.h */,
+				5C012B52207B701700AB5A45 /* WPBaseManager.m */,
+				5C012B57207C8D8300AB5A45 /* WPBaseTableViewCell.h */,
+				5C012B58207C8D8300AB5A45 /* WPBaseTableViewCell.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5CE1BB2E207473DF006B46E8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0759A33202C1E7400DDC067 /* DiscoveryViewController.h */,
+				F0759A34202C1E7400DDC067 /* DiscoveryViewController.m */,
+				5C8E6A5C208442800067B80B /* WPNewsDetailViewController.h */,
+				5C8E6A5D208442800067B80B /* WPNewsDetailViewController.m */,
+				5C133C5F20870C4500146AE7 /* WPPublicAccountDetailViewController.h */,
+				5C133C6020870C4500146AE7 /* WPPublicAccountDetailViewController.m */,
+				5C133C6B20898D6C00146AE7 /* WPMemoViewController.h */,
+				5C133C6C20898D6C00146AE7 /* WPMemoViewController.m */,
+				5C133C6E2089A37A00146AE7 /* WPPublicAccountSearchViewController.h */,
+				5C133C6F2089A37A00146AE7 /* WPPublicAccountSearchViewController.m */,
+				5CA4FF98208A068C00F23674 /* WPMapViewController.h */,
+				5CA4FF99208A068C00F23674 /* WPMapViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5CE1BB2F207473FB006B46E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1BB472074A67B006B46E8 /* WPDiscoverModel.h */,
+				5CE1BB482074A67B006B46E8 /* WPDiscoverModel.m */,
+				5C7B2D512089C4C500510503 /* WPPublicSearchResultModel.h */,
+				5C7B2D522089C4C500510503 /* WPPublicSearchResultModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CE1BB3020747405006B46E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1BB38207481D8006B46E8 /* WPDiscoverView.h */,
+				5CE1BB39207481D8006B46E8 /* WPDiscoverView.m */,
+				5C133C62208713EA00146AE7 /* WPPublicAccountDetailView.h */,
+				5C133C63208713EA00146AE7 /* WPPublicAccountDetailView.m */,
+				5CE1BB4120749EA9006B46E8 /* WPDiscoverTableViewCellType1.h */,
+				5CE1BB4220749EA9006B46E8 /* WPDiscoverTableViewCellType1.m */,
+				5CE1BB4420749EBC006B46E8 /* WPDiscoverTableViewCellType2.h */,
+				5CE1BB4520749EBC006B46E8 /* WPDiscoverTableViewCellType2.m */,
+				5CC11F67208EE88F00411EAA /* WPDiscoverTableViewCellType3.h */,
+				5CC11F68208EE88F00411EAA /* WPDiscoverTableViewCellType3.m */,
+				5C7B2D4E2089C1DF00510503 /* WPPublicSearchResultTableViewCell.h */,
+				5C7B2D4F2089C1DF00510503 /* WPPublicSearchResultTableViewCell.m */,
+				5CA4FF9B208A22F900F23674 /* WPGeoTableViewCell.h */,
+				5CA4FF9C208A22F900F23674 /* WPGeoTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		846F4CF6205A7D6200351726 /* RedPacket */ = {
+			isa = PBXGroup;
+			children = (
+				5C6D5529209C4A9C001CA80A /* ViewController */,
+				5C00DD40209098B4003FDFFD /* Model */,
+				5C00DD3C20905A36003FDFFD /* View */,
+				846F4CF7205A7D7800351726 /* RedPacketViewController.h */,
+				846F4CF8205A7D7800351726 /* RedPacketViewController.m */,
+				84EE993A2068D82300EC1746 /* SendRedPacketViewController.h */,
+				84EE993B2068D82300EC1746 /* SendRedPacketViewController.m */,
+				84EE9940206B57D700EC1746 /* SendRedPacketWebViewController.h */,
+				84EE9941206B57D700EC1746 /* SendRedPacketWebViewController.m */,
+				841A55B6206B85F500AAB2E3 /* ReceiveRedPacketWebViewController.h */,
+				841A55B7206B85F500AAB2E3 /* ReceiveRedPacketWebViewController.m */,
+				F0B17967206CD38F00E80FF6 /* TransferMoneyViewController.h */,
+				F0B17968206CD38F00E80FF6 /* TransferMoneyViewController.m */,
+				F0859D79206EBA9D003580BB /* TransferMoneySuccessViewController.h */,
+				F0859D7A206EBA9D003580BB /* TransferMoneySuccessViewController.m */,
+				F0B1796A206D48F300E80FF6 /* TransferMoneyInfoViewController.h */,
+				F0B1796B206D48F300E80FF6 /* TransferMoneyInfoViewController.m */,
+				F0B1796D206D490300E80FF6 /* TransferMoneyConfirmViewController.h */,
+				F0B1796E206D490300E80FF6 /* TransferMoneyConfirmViewController.m */,
+			);
+			path = RedPacket;
+			sourceTree = "<group>";
+		};
+		84EE9945206B589D00EC1746 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				84EE994A206B589D00EC1746 /* WebViewJavascriptBridgeBase.h */,
+				84EE9946206B589D00EC1746 /* WebViewJavascriptBridgeBase.m */,
+				84EE994D206B589D00EC1746 /* WKWebViewJavascriptBridge.h */,
+				84EE9947206B589D00EC1746 /* WKWebViewJavascriptBridge.m */,
+				84EE994C206B589D00EC1746 /* WebViewJavascriptBridge.h */,
+				84EE9948206B589D00EC1746 /* WebViewJavascriptBridge.m */,
+				84EE9949206B589D00EC1746 /* WebViewJavascriptBridge_JS.h */,
+				84EE994B206B589D00EC1746 /* WebViewJavascriptBridge_JS.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		84EE9952206B5B0300EC1746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F061DA73208D15F80059E375 /* UIKit.framework */,
+				F061DA71208D15E90059E375 /* Foundation.framework */,
+				F061DA6F208D15D20059E375 /* SystemConfiguration.framework */,
+				84EE9953206B5B0300EC1746 /* WebKit.framework */,
+				28096EC46443B9E37272D075 /* libPods-BiChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35672AF8E7C9E71ED3E5F6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25C62C59E71D08777E022C3D /* Pods-BiChat.debug.xcconfig */,
+				76D5C0595325E34AFDB89092 /* Pods-BiChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F03B04F82031ED24001A750C /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				F03B04F92031ED24001A750C /* CHANGELOG.md */,
+				F03B04FA2031ED24001A750C /* JSONKit.h */,
+				F03B04FB2031ED24001A750C /* JSONKit.m */,
+				F03B04FC2031ED24001A750C /* README.md */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		F03B052A2031FDD8001A750C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				F0715055208F778000E6D38A /* ChatCell */,
+				F03B052B2031FE8C001A750C /* ChatViewController.h */,
+				F03B052C2031FE8C001A750C /* ChatViewController.m */,
+				F04E0221204EE8CD004A7A27 /* GroupChatProperyViewController.h */,
+				F04E0222204EE8CD004A7A27 /* GroupChatProperyViewController.m */,
+				84C0AB3220930E6500A7E0D3 /* GroupAddMemberApplyInfoViewController.h */,
+				84C0AB3320930E6500A7E0D3 /* GroupAddMemberApplyInfoViewController.m */,
+				8416020520A0794600F690C4 /* GroupAddMemberConfirmViewController.h */,
+				8416020620A0794600F690C4 /* GroupAddMemberConfirmViewController.m */,
+				5C6D5539209C9641001CA80A /* GroupAddMemberCancelViewController.h */,
+				5C6D5538209C963E001CA80A /* GroupAddMemberCancelViewController.m */,
+				84C0AB262089A91300A7E0D3 /* ChatPropertyViewController.h */,
+				84C0AB272089A91300A7E0D3 /* ChatPropertyViewController.m */,
+				F04E022C204FCF54004A7A27 /* GroupNameChangeViewController.h */,
+				F04E022D204FCF54004A7A27 /* GroupNameChangeViewController.m */,
+				F04E023E2051BEF5004A7A27 /* NicknameInGroupChangeViewController.h */,
+				F04E023F2051BEF5004A7A27 /* NicknameInGroupChangeViewController.m */,
+				F04E024720530EF1004A7A27 /* BiTextView.h */,
+				F04E024820530EF1004A7A27 /* BiTextView.m */,
+				F027D27120531C8800D8E251 /* GroupPinBoardViewController.h */,
+				F027D27220531C8800D8E251 /* GroupPinBoardViewController.m */,
+				F0372A082060F79C006557A7 /* GroupVRCodeViewController.h */,
+				F0372A092060F79C006557A7 /* GroupVRCodeViewController.m */,
+				84B05CD420623A9000D386E1 /* GroupMemberDeleteViewController.h */,
+				84B05CD520623A9000D386E1 /* GroupMemberDeleteViewController.m */,
+				8445AA2C2065256B00096469 /* GroupSetupViewController.h */,
+				8445AA2D2065256B00096469 /* GroupSetupViewController.m */,
+				8445AA2F2065539000096469 /* AllGroupMemberViewController.h */,
+				8445AA302065539000096469 /* AllGroupMemberViewController.m */,
+				F085519F2066B0B800BCE1AE /* GroupMemberSelectorViewController.h */,
+				F08551A02066B0B800BCE1AE /* GroupMemberSelectorViewController.m */,
+				F08551A22067465500BCE1AE /* SetGroupAvatarViewController.h */,
+				F08551A32067465500BCE1AE /* SetGroupAvatarViewController.m */,
+				841A55CE207A547D00AAB2E3 /* ConbineMessageViewController.h */,
+				841A55CF207A547D00AAB2E3 /* ConbineMessageViewController.m */,
+				F01FFA56209E1030002A239D /* QLPreviewItemCustom.h */,
+				F01FFA57209E1030002A239D /* QLPreviewItemCustom.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		F03B05312043F662001A750C /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F085519D20662AC200BCE1AE /* ScanViewController.h */,
+				F085519C20662AC200BCE1AE /* ScanViewController.m */,
+				F027D27720582F5B00D8E251 /* MRZoomScrollView.h */,
+				F027D27820582F5B00D8E251 /* MRZoomScrollView.m */,
+				F092B7EF2046E2C00061FE1F /* AlertView.h */,
+				F092B7F02046E2C00061FE1F /* AlertView.m */,
+				F03B05332043F678001A750C /* pinyin.c */,
+				F03B05322043F678001A750C /* pinyin.h */,
+				F04E02412052718A004A7A27 /* UFileSDK_.h */,
+				F04E02422052718A004A7A27 /* UFileSDK_.m */,
+				F061DA75208D1C420059E375 /* S3SDK_.h */,
+				F061DA76208D1C420059E375 /* S3SDK_.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		F0715055208F778000E6D38A /* ChatCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C0B64A320A602D900ECE764 /* UnknownCell.h */,
+				5C0B64A220A602D900ECE764 /* UnknownCell.m */,
+				5C0B649C20A6014E00ECE764 /* RedPacketADCell.h */,
+				5C0B649B20A6014E00ECE764 /* RedPacketADCell.m */,
+				8416020420A044AD00F690C4 /* ChatCellDef.h */,
+				F0715062208F7A8C00E6D38A /* ChatCell.h */,
+				F0715063208F7A8C00E6D38A /* ChatCell.m */,
+				F0715056208F77B000E6D38A /* TextCell.h */,
+				F0715057208F77B000E6D38A /* TextCell.m */,
+				F0715059208F79BE00E6D38A /* TimeCell.h */,
+				F071505A208F79BE00E6D38A /* TimeCell.m */,
+				F071505C208F7A3400E6D38A /* ImageCell.h */,
+				F071505D208F7A3400E6D38A /* ImageCell.m */,
+				F071505F208F7A4000E6D38A /* SoundCell.h */,
+				F0715060208F7A4000E6D38A /* SoundCell.m */,
+				F0715065208F93AE00E6D38A /* GroupEventCell.h */,
+				F0715066208F93AE00E6D38A /* GroupEventCell.m */,
+				84C0AB2F209300D000A7E0D3 /* GroupAddMemberApplyCell.h */,
+				84C0AB30209300D000A7E0D3 /* GroupAddMemberApplyCell.m */,
+				F0715068208F942B00E6D38A /* SystemMessageCell.h */,
+				F0715069208F942B00E6D38A /* SystemMessageCell.m */,
+				F071506B208F949100E6D38A /* RedPacketCell.h */,
+				F071506C208F949100E6D38A /* RedPacketCell.m */,
+				F071506E208F96E900E6D38A /* RedPacketMessageCell.h */,
+				F071506F208F96E900E6D38A /* RedPacketMessageCell.m */,
+				F0715071208F970000E6D38A /* TransferMoneyCell.h */,
+				F0715072208F970000E6D38A /* TransferMoneyCell.m */,
+				F0715074208F970F00E6D38A /* TransferMoneyMessageCell.h */,
+				F0715075208F970F00E6D38A /* TransferMoneyMessageCell.m */,
+				F0715077208F972300E6D38A /* CardCell.h */,
+				F0715078208F972300E6D38A /* CardCell.m */,
+				F071507A208F972E00E6D38A /* PositionCell.h */,
+				F071507B208F972E00E6D38A /* PositionCell.m */,
+				F071508A208FA03000E6D38A /* MessageBundleCell.h */,
+				F071508B208FA03000E6D38A /* MessageBundleCell.m */,
+				F0715080208F976A00E6D38A /* FileCell.h */,
+				F0715081208F976A00E6D38A /* FileCell.m */,
+				8416020820A09B2700F690C4 /* FileDeleteCell.h */,
+				8416020920A09B2700F690C4 /* FileDeleteCell.m */,
+				F0715083208F977F00E6D38A /* PublicNewsCell.h */,
+				F0715084208F977F00E6D38A /* PublicNewsCell.m */,
+				F071508D208FA20500E6D38A /* NewsCell.h */,
+				F071508E208FA20500E6D38A /* NewsCell.m */,
+				F0715090208FA23E00E6D38A /* PublicMessageCell.h */,
+				F0715091208FA23E00E6D38A /* PublicMessageCell.m */,
+			);
+			path = ChatCell;
+			sourceTree = "<group>";
+		};
+		F0759A02202C1B5200DDC067 = {
+			isa = PBXGroup;
+			children = (
+				F0859D66206D6E05003580BB /* wechat */,
+				84EE9945206B589D00EC1746 /* WebViewJavascriptBridge */,
+				F03729FE205C2FDD006557A7 /* localization.strings */,
+				F03B04F82031ED24001A750C /* JSONKit */,
+				F0759A27202C1D6C00DDC067 /* TTStreamer.framework */,
+				F0759A0D202C1B5200DDC067 /* BiChat */,
+				F0759A0C202C1B5200DDC067 /* Products */,
+				84EE9952206B5B0300EC1746 /* Frameworks */,
+				D35672AF8E7C9E71ED3E5F6E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F0759A0C202C1B5200DDC067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0759A0B202C1B5200DDC067 /* BiChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0759A0D202C1B5200DDC067 /* BiChat */ = {
+			isa = PBXGroup;
+			children = (
+				5CB5EE3F20AEACCA00623280 /* ThirdPart */,
+				5CA96DD52079B71C007D763E /* Tools */,
+				5CE1BB2020746A31006B46E8 /* Base */,
+				5CE1BB1E2074686A006B46E8 /* Common */,
+				846F4CF6205A7D6200351726 /* RedPacket */,
+				F03B05312043F662001A750C /* Misc */,
+				F03B052A2031FDD8001A750C /* Chat */,
+				F0759A3D202C1F3000DDC067 /* App */,
+				F0759A39202C1EF500DDC067 /* Login&Register */,
+				F0759A2C202C1DE200DDC067 /* My */,
+				F0759A2B202C1DD900DDC067 /* Discovery */,
+				F0759A2A202C1DD000DDC067 /* ContactList */,
+				F0759A29202C1DC400DDC067 /* ChatList */,
+				F0759A17202C1B5200DDC067 /* Main.storyboard */,
+				F0759A1A202C1B5200DDC067 /* Assets.xcassets */,
+				F0759A1C202C1B5200DDC067 /* LaunchScreen.storyboard */,
+				F0759A1F202C1B5200DDC067 /* Info.plist */,
+				F0759A20202C1B5200DDC067 /* main.m */,
+				5CE1BB2D20746FCE006B46E8 /* PrefixHeader.pch */,
+			);
+			path = BiChat;
+			sourceTree = "<group>";
+		};
+		F0759A29202C1DC400DDC067 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				F0759A2D202C1E4C00DDC067 /* ChatListViewController.h */,
+				F0759A2E202C1E4C00DDC067 /* ChatListViewController.m */,
+				5C0B649720A6002300ECE764 /* ChatListGroupApproveViewController.h */,
+				5C0B649620A6002100ECE764 /* ChatListGroupApproveViewController.m */,
+				F08551992066178B00BCE1AE /* ChatListNewFriendViewController.h */,
+				F085519A2066178B00BCE1AE /* ChatListNewFriendViewController.m */,
+				841A55D1207B564E00AAB2E3 /* ChatListFoldFriendViewController.h */,
+				841A55D2207B564E00AAB2E3 /* ChatListFoldFriendViewController.m */,
+				84CA139920AC1D2600977821 /* VirtualGroupListViewController.h */,
+				84CA139A20AC1D2600977821 /* VirtualGroupListViewController.m */,
+				84CA139C20AC54B200977821 /* VirtualGroupSetupViewController.h */,
+				84CA139D20AC54B200977821 /* VirtualGroupSetupViewController.m */,
+				5C0B649F20A6027500ECE764 /* GroupApproveViewController.h */,
+				5C0B64A020A6027500ECE764 /* GroupApproveViewController.m */,
+				84EE99362067B18600EC1746 /* ChatSelectViewController.h */,
+				84EE99372067B18600EC1746 /* ChatSelectViewController.m */,
+				845030D420A978C7009B4CDC /* ChatFoldSelectViewController.h */,
+				845030D520A978C7009B4CDC /* ChatFoldSelectViewController.m */,
+				845030D720A978D9009B4CDC /* ChatNewFriendSelectViewController.h */,
+				845030D820A978D9009B4CDC /* ChatNewFriendSelectViewController.m */,
+				845030DD20AAD2EF009B4CDC /* ChatGroupManageSelectViewController.h */,
+				845030DE20AAD2EF009B4CDC /* ChatGroupManageSelectViewController.m */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		F0759A2A202C1DD000DDC067 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				F0759A30202C1E5E00DDC067 /* ContactListViewController.h */,
+				F0759A31202C1E5E00DDC067 /* ContactListViewController.m */,
+				F03B05612043FB6C001A750C /* UserDetailViewController.h */,
+				F03B05622043FB6C001A750C /* UserDetailViewController.m */,
+				F07150932091E75000E6D38A /* UserMemoNameViewController.h */,
+				F07150942091E75000E6D38A /* UserMemoNameViewController.m */,
+				F0372A0B20610ADF006557A7 /* UserDetailMoreViewController.h */,
+				F0372A0C20610ADF006557A7 /* UserDetailMoreViewController.m */,
+				F092B7E320453CC20061FE1F /* AddFriendViewController.h */,
+				F092B7E420453CC20061FE1F /* AddFriendViewController.m */,
+				F092B7E6204540F70061FE1F /* AddMemoViewController.h */,
+				F092B7E7204540F70061FE1F /* AddMemoViewController.m */,
+				F04E0226204FBC6B004A7A27 /* GroupListViewController.h */,
+				F04E0227204FBC6B004A7A27 /* GroupListViewController.m */,
+				F0372A0E20617015006557A7 /* AddFriendFromLocalContactViewController.h */,
+				F0372A0F20617015006557A7 /* AddFriendFromLocalContactViewController.m */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		F0759A2B202C1DD900DDC067 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				5CE1BB3020747405006B46E8 /* View */,
+				5CE1BB2F207473FB006B46E8 /* Model */,
+				5CE1BB2E207473DF006B46E8 /* ViewController */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		F0759A2C202C1DE200DDC067 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				F0759A36202C1E8100DDC067 /* MyViewController.h */,
+				F0759A37202C1E8100DDC067 /* MyViewController.m */,
+				F092B7EC2045B2F00061FE1F /* SetupViewController.h */,
+				F092B7ED2045B2F00061FE1F /* SetupViewController.m */,
+				F04E022F2051BA49004A7A27 /* MyWalletViewController.h */,
+				F04E02302051BA49004A7A27 /* MyWalletViewController.m */,
+				841A55C2206E1A7600AAB2E3 /* MyWalletCoinInfoViewController.h */,
+				841A55C3206E1A7600AAB2E3 /* MyWalletCoinInfoViewController.m */,
+				841A55B9206B905900AAB2E3 /* MyWalletAccountViewController.h */,
+				841A55BA206B905900AAB2E3 /* MyWalletAccountViewController.m */,
+				F04E02322051BA57004A7A27 /* MyFavoriteViewController.h */,
+				F04E02332051BA57004A7A27 /* MyFavoriteViewController.m */,
+				F03729FF205C3270006557A7 /* SetupPrivacyViewController.h */,
+				F0372A00205C3270006557A7 /* SetupPrivacyViewController.m */,
+				F0372A05205C382D006557A7 /* MyPorfileViewController.h */,
+				F0372A06205C382D006557A7 /* MyPorfileViewController.m */,
+				846F4CFA205FB1C300351726 /* MyBlackListViewController.h */,
+				846F4CFB205FB1C300351726 /* MyBlackListViewController.m */,
+				8445AA2920651B5000096469 /* MySignSetupViewController.h */,
+				8445AA2A20651B5000096469 /* MySignSetupViewController.m */,
+				F0859D5D206D524F003580BB /* PaymentPasswordSetupStep1ViewController.h */,
+				F0859D5E206D524F003580BB /* PaymentPasswordSetupStep1ViewController.m */,
+				F0859D60206D5262003580BB /* PaymentPasswordSetupStep2ViewController.h */,
+				F0859D61206D5262003580BB /* PaymentPasswordSetupStep2ViewController.m */,
+				F0859D63206D5277003580BB /* PaymentPasswordSetupStep3ViewController.h */,
+				F0859D64206D5277003580BB /* PaymentPasswordSetupStep3ViewController.m */,
+				841A55BC206DF8E500AAB2E3 /* MyWeChatBindingViewController.h */,
+				841A55BD206DF8E500AAB2E3 /* MyWeChatBindingViewController.m */,
+				841A55C5206E44BB00AAB2E3 /* CoinSelectViewController.h */,
+				841A55C6206E44BB00AAB2E3 /* CoinSelectViewController.m */,
+				841A55CB2072549900AAB2E3 /* MyWalletSetupViewController.h */,
+				841A55CC2072549900AAB2E3 /* MyWalletSetupViewController.m */,
+				F08F810D208916F8001EE428 /* MyFollowedPublicAccountViewController.h */,
+				F08F810E208916F8001EE428 /* MyFollowedPublicAccountViewController.m */,
+				F0CD15FA207F71A500A6E53E /* QuotationView.h */,
+				F0CD15FB207F71A500A6E53E /* QuotationView.m */,
+				84ECFB432080708400132D7C /* QuotationViewLit.h */,
+				84ECFB442080708400132D7C /* QuotationViewLit.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		F0759A39202C1EF500DDC067 /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				F0759A3A202C1F0D00DDC067 /* LoginViewController.h */,
+				F0759A3B202C1F0D00DDC067 /* LoginViewController.m */,
+				F092B7E920459C2B0061FE1F /* RegisterViewController.h */,
+				F092B7EA20459C2B0061FE1F /* RegisterViewController.m */,
+				F013A7FC20599BCA00B2DBBF /* VerifyViewController.h */,
+				F013A7FD20599BCA00B2DBBF /* VerifyViewController.m */,
+				F013A7FF2059A9D200B2DBBF /* SetUserProfileViewController.h */,
+				F013A8002059A9D200B2DBBF /* SetUserProfileViewController.m */,
+				846F4CF3205A6D8700351726 /* SetUserAvatarViewController.h */,
+				846F4CF4205A6D8700351726 /* SetUserAvatarViewController.m */,
+				846F4CF0205A4F9F00351726 /* CountrySelectorViewController.h */,
+				846F4CF1205A4F9F00351726 /* CountrySelectorViewController.m */,
+				841A55C82072481E00AAB2E3 /* BindWeChat@RegisterViewController.h */,
+				841A55C92072481E00AAB2E3 /* BindWeChat@RegisterViewController.m */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		F0759A3D202C1F3000DDC067 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F0759A0E202C1B5200DDC067 /* AppDelegate.h */,
+				F0759A0F202C1B5200DDC067 /* AppDelegate.m */,
+				F0759A3E202C1F7D00DDC067 /* BiChatGlobal.h */,
+				F0759A3F202C1F7D00DDC067 /* BiChatGlobal.m */,
+				F03B052E203F1972001A750C /* BiChatDataModule.h */,
+				F03B052F203F1972001A750C /* BiChatDataModule.m */,
+				F0855196206409EF00BCE1AE /* NetworkModule.h */,
+				F0855197206409EF00BCE1AE /* NetworkModule.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F0859D66206D6E05003580BB /* wechat */ = {
+			isa = PBXGroup;
+			children = (
+				F0859D67206D6E05003580BB /* libWeChatSDK.a */,
+				F0859D68206D6E05003580BB /* payRequsestHandler.h */,
+				F0859D69206D6E05003580BB /* payRequsestHandler.mm */,
+				F0859D6A206D6E05003580BB /* readme.txt */,
+				F0859D6B206D6E05003580BB /* TenpayUtil.h */,
+				F0859D6C206D6E05003580BB /* TenpayUtil.mm */,
+				F0859D6D206D6E05003580BB /* WXApi.h */,
+				F0859D6E206D6E05003580BB /* WXApiObject.h */,
+			);
+			path = wechat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0759A0A202C1B5200DDC067 /* BiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0759A24202C1B5200DDC067 /* Build configuration list for PBXNativeTarget "BiChat" */;
+			buildPhases = (
+				8ED10B0BDF18698CDB9D925D /* [CP] Check Pods Manifest.lock */,
+				F0759A07202C1B5200DDC067 /* Sources */,
+				F0759A08202C1B5200DDC067 /* Frameworks */,
+				F0759A09202C1B5200DDC067 /* Resources */,
+				0A466D0A577295121D8F98F6 /* [CP] Embed Pods Frameworks */,
+				2EF4188902C06CDDAA8C02D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiChat;
+			productName = BiChat;
+			productReference = F0759A0B202C1B5200DDC067 /* BiChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0759A03202C1B5200DDC067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WP;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = worm_kc;
+				TargetAttributes = {
+					F0759A0A202C1B5200DDC067 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = F0759A06202C1B5200DDC067 /* Build configuration list for PBXProject "BiChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = F0759A02202C1B5200DDC067;
+			productRefGroup = F0759A0C202C1B5200DDC067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0759A0A202C1B5200DDC067 /* BiChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0759A09202C1B5200DDC067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0759A1E202C1B5200DDC067 /* LaunchScreen.storyboard in Resources */,
+				F03729FC205C2FDD006557A7 /* localization.strings in Resources */,
+				F0759A1B202C1B5200DDC067 /* Assets.xcassets in Resources */,
+				5CB5EE4120AEACCB00623280 /* mapapi.bundle in Resources */,
+				F03B04FF2031ED24001A750C /* README.md in Resources */,
+				F0859D71206D6E05003580BB /* readme.txt in Resources */,
+				5CC11F5D208D886500411EAA /* mapapi.bundle in Resources */,
+				F0759A19202C1B5200DDC067 /* Main.storyboard in Resources */,
+				F03B04FD2031ED24001A750C /* CHANGELOG.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A466D0A577295121D8F98F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiChat/Pods-BiChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EF4188902C06CDDAA8C02D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BiChat/Pods-BiChat-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiChat/Pods-BiChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED10B0BDF18698CDB9D925D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0759A07202C1B5200DDC067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0B649E20A6022400ECE764 /* RedPacketADCell.m in Sources */,
+				5C0B649A20A600CE00ECE764 /* ChatViewController.m in Sources */,
+				5C0B649920A600BD00ECE764 /* ChatListGroupApproveViewController.m in Sources */,
+				5C6D5537209C94AB001CA80A /* UFileSDK_.m in Sources */,
+				5C0B648620A1B89D00ECE764 /* WPRedPacketSendView.m in Sources */,
+				845030DF20AAD2EF009B4CDC /* ChatGroupManageSelectViewController.m in Sources */,
+				5CC11F56208D856600411EAA /* WebViewJavascriptBridge_JS.m in Sources */,
+				5CC11F55208D856100411EAA /* WebViewJavascriptBridgeBase.m in Sources */,
+				F013A7FE20599BCA00B2DBBF /* VerifyViewController.m in Sources */,
+				5CA4FF9D208A22F900F23674 /* WPGeoTableViewCell.m in Sources */,
+				5CB5EE3D20AE732D00623280 /* UIImageView+Category.m in Sources */,
+				5C6D5535209C87A1001CA80A /* NSString+Categroy.m in Sources */,
+				84C0AB31209300D000A7E0D3 /* GroupAddMemberApplyCell.m in Sources */,
+				F0715064208F7A8C00E6D38A /* ChatCell.m in Sources */,
+				F04E0223204EE8CD004A7A27 /* GroupChatProperyViewController.m in Sources */,
+				F04E02402051BEF5004A7A27 /* NicknameInGroupChangeViewController.m in Sources */,
+				F0715061208F7A4000E6D38A /* SoundCell.m in Sources */,
+				5C133C702089A37A00146AE7 /* WPPublicAccountSearchViewController.m in Sources */,
+				F04E0228204FBC6B004A7A27 /* GroupListViewController.m in Sources */,
+				5C7B489920AEC55400C6428A /* ZYShareSheetCell.m in Sources */,
+				84EE9950206B589D00EC1746 /* WebViewJavascriptBridge.m in Sources */,
+				F0715067208F93AE00E6D38A /* GroupEventCell.m in Sources */,
+				F071505E208F7A3400E6D38A /* ImageCell.m in Sources */,
+				5C7B2D502089C1DF00510503 /* WPPublicSearchResultTableViewCell.m in Sources */,
+				5CB5EE3120A93DBB00623280 /* WPRedPacketErrorView.m in Sources */,
+				F0B1796F206D490300E80FF6 /* TransferMoneyConfirmViewController.m in Sources */,
+				F092B7E520453CC20061FE1F /* AddFriendViewController.m in Sources */,
+				F0859D70206D6E05003580BB /* payRequsestHandler.mm in Sources */,
+				F0859D5F206D524F003580BB /* PaymentPasswordSetupStep1ViewController.m in Sources */,
+				8445AA2E2065256B00096469 /* GroupSetupViewController.m in Sources */,
+				5C0B648C20A33B8F00ECE764 /* WPRedPacketRobView.m in Sources */,
+				F0715092208FA23E00E6D38A /* PublicMessageCell.m in Sources */,
+				5C8E6A5E208442800067B80B /* WPNewsDetailViewController.m in Sources */,
+				F0715073208F970000E6D38A /* TransferMoneyCell.m in Sources */,
+				5CE1BB3A207481D8006B46E8 /* WPDiscoverView.m in Sources */,
+				5CE1BB4320749EA9006B46E8 /* WPDiscoverTableViewCellType1.m in Sources */,
+				84CA139B20AC1D2600977821 /* VirtualGroupListViewController.m in Sources */,
+				5CA4FF9A208A068C00F23674 /* WPMapViewController.m in Sources */,
+				5C0B647A20A0175600ECE764 /* WPRedPacketCoinTableViewCell.m in Sources */,
+				F03B05342043F678001A750C /* pinyin.c in Sources */,
+				F0715079208F972300E6D38A /* CardCell.m in Sources */,
+				5C133C6120870C4500146AE7 /* WPPublicAccountDetailViewController.m in Sources */,
+				F04E02342051BA57004A7A27 /* MyFavoriteViewController.m in Sources */,
+				5C7B489B20AEC55400C6428A /* ZYShareItemCell.m in Sources */,
+				F071507C208F972E00E6D38A /* PositionCell.m in Sources */,
+				F0715070208F96E900E6D38A /* RedPacketMessageCell.m in Sources */,
+				5C012B59207C8D8300AB5A45 /* WPBaseTableViewCell.m in Sources */,
+				F071508C208FA03000E6D38A /* MessageBundleCell.m in Sources */,
+				F08551A12066B0B800BCE1AE /* GroupMemberSelectorViewController.m in Sources */,
+				5C3AF34220996980004B9A79 /* WPShareView.m in Sources */,
+				F07150952091E75000E6D38A /* UserMemoNameViewController.m in Sources */,
+				F092B7E8204540F70061FE1F /* AddMemoViewController.m in Sources */,
+				84ECFB452080708400132D7C /* QuotationViewLit.m in Sources */,
+				5CA96DD82079B742007D763E /* WPMenuHrizontal.m in Sources */,
+				841A55BE206DF8E500AAB2E3 /* MyWeChatBindingViewController.m in Sources */,
+				84EE994F206B589D00EC1746 /* WKWebViewJavascriptBridge.m in Sources */,
+				F0B1796C206D48F300E80FF6 /* TransferMoneyInfoViewController.m in Sources */,
+				846F4CF5205A6D8700351726 /* SetUserAvatarViewController.m in Sources */,
+				F0759A38202C1E8100DDC067 /* MyViewController.m in Sources */,
+				5C0B647D20A157FB00ECE764 /* WPRedPacketSendReceiveModel.m in Sources */,
+				845030D920A978D9009B4CDC /* ChatNewFriendSelectViewController.m in Sources */,
+				84C0AB282089A91300A7E0D3 /* ChatPropertyViewController.m in Sources */,
+				F0372A0D20610ADF006557A7 /* UserDetailMoreViewController.m in Sources */,
+				5C00DD3F20905A59003FDFFD /* WPRedPacketTableViewCell.m in Sources */,
+				F061DA77208D1C420059E375 /* S3SDK_.m in Sources */,
+				841A55C7206E44BB00AAB2E3 /* CoinSelectViewController.m in Sources */,
+				F071505B208F79BE00E6D38A /* TimeCell.m in Sources */,
+				F08F810F208916F8001EE428 /* MyFollowedPublicAccountViewController.m in Sources */,
+				5CE1BB2C20746E90006B46E8 /* WPBaseViewController+Tracking.m in Sources */,
+				F04E024920530EF1004A7A27 /* BiTextView.m in Sources */,
+				846F4CF2205A4F9F00351726 /* CountrySelectorViewController.m in Sources */,
+				8445AA2B20651B5000096469 /* MySignSetupViewController.m in Sources */,
+				8416020A20A09B2700F690C4 /* FileDeleteCell.m in Sources */,
+				5CB5EE3420AAC21D00623280 /* WPRedPacketTargetViewController.m in Sources */,
+				5C00DD43209098E0003FDFFD /* WPRedPacketModel.m in Sources */,
+				5C0B648920A2CC7B00ECE764 /* WPRedPacketRobViewController.m in Sources */,
+				F0859D72206D6E05003580BB /* TenpayUtil.mm in Sources */,
+				5C012B53207B701700AB5A45 /* WPBaseManager.m in Sources */,
+				5C0B648F20A41F3A00ECE764 /* WPRedpacketRobRedPacketDetailModel.m in Sources */,
+				F071506A208F942B00E6D38A /* SystemMessageCell.m in Sources */,
+				F0372A1020617015006557A7 /* AddFriendFromLocalContactViewController.m in Sources */,
+				841A55D3207B564E00AAB2E3 /* ChatListFoldFriendViewController.m in Sources */,
+				84B05CD620623A9000D386E1 /* GroupMemberDeleteViewController.m in Sources */,
+				84EE9942206B57D700EC1746 /* SendRedPacketWebViewController.m in Sources */,
+				F085519B2066178B00BCE1AE /* ChatListNewFriendViewController.m in Sources */,
+				F0715085208F977F00E6D38A /* PublicNewsCell.m in Sources */,
+				F01FFA58209E1030002A239D /* QLPreviewItemCustom.m in Sources */,
+				F0372A01205C3270006557A7 /* SetupPrivacyViewController.m in Sources */,
+				841A55D0207A547D00AAB2E3 /* ConbineMessageViewController.m in Sources */,
+				F071506D208F949100E6D38A /* RedPacketCell.m in Sources */,
+				F0859D65206D5277003580BB /* PaymentPasswordSetupStep3ViewController.m in Sources */,
+				5C012B56207B8BE100AB5A45 /* NSDictionary+Category.m in Sources */,
+				5C0B648020A1585B00ECE764 /* WPRedPacketSendCoinModel.m in Sources */,
+				F04E022E204FCF54004A7A27 /* GroupNameChangeViewController.m in Sources */,
+				845030D620A978C7009B4CDC /* ChatFoldSelectViewController.m in Sources */,
+				5C6D552C209C4AB8001CA80A /* WPRedPacketSendViewController.m in Sources */,
+				F092B7F12046E2C00061FE1F /* AlertView.m in Sources */,
+				84C0AB3420930E6500A7E0D3 /* GroupAddMemberApplyInfoViewController.m in Sources */,
+				F0B17969206CD38F00E80FF6 /* TransferMoneyViewController.m in Sources */,
+				F0859D7B206EBA9D003580BB /* TransferMoneySuccessViewController.m in Sources */,
+				F0759A2F202C1E4C00DDC067 /* ChatListViewController.m in Sources */,
+				8416020720A0794600F690C4 /* GroupAddMemberConfirmViewController.m in Sources */,
+				5C6D553A209C9641001CA80A /* GroupAddMemberCancelViewController.m in Sources */,
+				F0CD15FC207F71A500A6E53E /* QuotationView.m in Sources */,
+				5CC11F69208EE88F00411EAA /* WPDiscoverTableViewCellType3.m in Sources */,
+				5C133C6D20898D6C00146AE7 /* WPMemoViewController.m in Sources */,
+				F085519E20662AC200BCE1AE /* ScanViewController.m in Sources */,
+				5C0B64A420A602DA00ECE764 /* UnknownCell.m in Sources */,
+				5CE1BB372074804E006B46E8 /* UIColor+Category.m in Sources */,
+				5CE1BB2920746E7A006B46E8 /* WPBaseViewController.m in Sources */,
+				841A55BB206B905900AAB2E3 /* MyWalletAccountViewController.m in Sources */,
+				F0372A0A2060F79C006557A7 /* GroupVRCodeViewController.m in Sources */,
+				5CE1BB492074A67B006B46E8 /* WPDiscoverModel.m in Sources */,
+				841A55CD2072549900AAB2E3 /* MyWalletSetupViewController.m in Sources */,
+				5CE1BB4620749EBC006B46E8 /* WPDiscoverTableViewCellType2.m in Sources */,
+				F092B7EE2045B2F00061FE1F /* SetupViewController.m in Sources */,
+				F03B04FE2031ED24001A750C /* JSONKit.m in Sources */,
+				5C7B489D20AEC55400C6428A /* ZYShareItem.m in Sources */,
+				5C7B2D532089C4C500510503 /* WPPublicSearchResultModel.m in Sources */,
+				84EE99382067B18600EC1746 /* ChatSelectViewController.m in Sources */,
+				F0759A32202C1E5E00DDC067 /* ContactListViewController.m in Sources */,
+				F03B0530203F1972001A750C /* BiChatDataModule.m in Sources */,
+				F0715076208F970F00E6D38A /* TransferMoneyMessageCell.m in Sources */,
+				5C0B64A120A6027600ECE764 /* GroupApproveViewController.m in Sources */,
+				F013A8012059A9D200B2DBBF /* SetUserProfileViewController.m in Sources */,
+				5C0B649220A5745900ECE764 /* WPRedPacketGetRedPacketPeopleModel.m in Sources */,
+				846F4CFC205FB1C300351726 /* MyBlackListViewController.m in Sources */,
+				5C133C6A2087362C00146AE7 /* UIImage+Category.m in Sources */,
+				F092B7EB20459C2B0061FE1F /* RegisterViewController.m in Sources */,
+				F08551A42067465500BCE1AE /* SetGroupAvatarViewController.m in Sources */,
+				F027D27920582F5B00D8E251 /* MRZoomScrollView.m in Sources */,
+				841A55CA2072481E00AAB2E3 /* BindWeChat@RegisterViewController.m in Sources */,
+				F0372A07205C382D006557A7 /* MyPorfileViewController.m in Sources */,
+				846F4CF9205A7D7800351726 /* RedPacketViewController.m in Sources */,
+				F0759A10202C1B5200DDC067 /* AppDelegate.m in Sources */,
+				841A55B8206B85F500AAB2E3 /* ReceiveRedPacketWebViewController.m in Sources */,
+				F0759A3C202C1F0D00DDC067 /* LoginViewController.m in Sources */,
+				F0759A40202C1F7D00DDC067 /* BiChatGlobal.m in Sources */,
+				5C7B489C20AEC55400C6428A /* ZYShareView.m in Sources */,
+				F0859D62206D5262003580BB /* PaymentPasswordSetupStep2ViewController.m in Sources */,
+				84EE993C2068D82300EC1746 /* SendRedPacketViewController.m in Sources */,
+				5CE1BB4020748341006B46E8 /* WPBaseTableView.m in Sources */,
+				5C7B489A20AEC55400C6428A /* ZYShareSheetView.m in Sources */,
+				F027D27320531C8800D8E251 /* GroupPinBoardViewController.m in Sources */,
+				F0855198206409EF00BCE1AE /* NetworkModule.m in Sources */,
+				5C00DD4620909E7B003FDFFD /* WPRedPacketHeaderView.m in Sources */,
+				5C0B648320A17CE500ECE764 /* WPRedPacketPayWorkdInputView.m in Sources */,
+				5C0B647720A0159600ECE764 /* WPRedPacketSendCoinSelectView.m in Sources */,
+				F04E02312051BA49004A7A27 /* MyWalletViewController.m in Sources */,
+				F0759A21202C1B5200DDC067 /* main.m in Sources */,
+				5C133C64208713EA00146AE7 /* WPPublicAccountDetailView.m in Sources */,
+				8445AA312065539000096469 /* AllGroupMemberViewController.m in Sources */,
+				5C0B649520A5767C00ECE764 /* WPRedPacketDetalTableViewCell.m in Sources */,
+				F071508F208FA20500E6D38A /* NewsCell.m in Sources */,
+				F0715058208F77B000E6D38A /* TextCell.m in Sources */,
+				84CA139E20AC54B200977821 /* VirtualGroupSetupViewController.m in Sources */,
+				F03B05632043FB6C001A750C /* UserDetailViewController.m in Sources */,
+				841A55C4206E1A7600AAB2E3 /* MyWalletCoinInfoViewController.m in Sources */,
+				F0715082208F976A00E6D38A /* FileCell.m in Sources */,
+				5C133C5E2086F81F00146AE7 /* UIViewController+BackButtonHandler.m in Sources */,
+				F0759A35202C1E7400DDC067 /* DiscoveryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F03729FE205C2FDD006557A7 /* localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03729FD205C2FDD006557A7 /* en */,
+				F0859D75206D6F7A003580BB /* zh-Hans */,
+				F0859D78206D6F83003580BB /* zh-Hant */,
+			);
+			name = localization.strings;
+			sourceTree = "<group>";
+		};
+		F0759A17202C1B5200DDC067 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0759A18202C1B5200DDC067 /* Base */,
+				F0859D73206D6F7A003580BB /* zh-Hans */,
+				F0859D76206D6F83003580BB /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0759A1C202C1B5200DDC067 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0759A1D202C1B5200DDC067 /* Base */,
+				F0859D74206D6F7A003580BB /* zh-Hans */,
+				F0859D77206D6F83003580BB /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0759A22202C1B5200DDC067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F0759A23202C1B5200DDC067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0759A25202C1B5200DDC067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C62C59E71D08777E022C3D /* Pods-BiChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LW9Y92ARNA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BiChat/PrefixHeader.pch";
+				INFOPLIST_FILE = BiChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt2.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8066d96d-479f-470b-8f4c-192fdf277ecf";
+				PROVISIONING_PROFILE_SPECIFIER = "For Any Dev Projects";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0759A26202C1B5200DDC067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D5C0595325E34AFDB89092 /* Pods-BiChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LW9Y92ARNA;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BiChat/PrefixHeader.pch";
+				INFOPLIST_FILE = BiChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/wechat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt2.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8066d96d-479f-470b-8f4c-192fdf277ecf";
+				PROVISIONING_PROFILE_SPECIFIER = "For Any Dev Projects";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0759A06202C1B5200DDC067 /* Build configuration list for PBXProject "BiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0759A22202C1B5200DDC067 /* Debug */,
+				F0759A23202C1B5200DDC067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0759A24202C1B5200DDC067 /* Build configuration list for PBXNativeTarget "BiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0759A25202C1B5200DDC067 /* Debug */,
+				F0759A26202C1B5200DDC067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0759A03202C1B5200DDC067 /* Project object */;
+}

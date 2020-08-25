@@ -1,0 +1,6 @@
+framework module TTStreamer {
+  umbrella header "TTStreamer.h"
+
+  export *
+  module * { export * }
+}

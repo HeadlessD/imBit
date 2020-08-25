@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BiChat.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E152B0A73E0CF772C37C1D7CDE89BB54DA7E1B78</string>
+				<key>dateExpires</key>
+				<string>2020/11/14</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>5RJ955KDTW.com.tt2.testapp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>5RJ955KDTW</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>5RJ955KDTW.com.tt2.testapp</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>BiChat.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>f2600098-4593-4a78-b972-3ef6007888bc</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: com.tt2.testapp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>5RJ955KDTW</string>
+				<key>name</key>
+				<string>China Mobile Group Device Co.,Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

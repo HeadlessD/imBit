@@ -1,0 +1,61 @@
+platform :ios,'8.0'
+
+def imchat_pods
+    pod 'Masonry'
+    pod 'YYText'
+    pod 'YYImage'
+    pod 'YYWebImage'
+    pod 'MJRefresh'
+    pod 'MJExtension', '~> 3.0.11'
+    pod 'AFNetworking', '~> 3.2.0'
+    pod 'AutoCoding'
+    pod 'AWSS3', '~> 2.6.0'
+    pod 'IQKeyboardManager'
+    pod 'SDWebImage'
+    pod 'FLAnimatedImage'
+    pod 'WebViewJavascriptBridge', '~> 6.0'
+    pod 'SAMKeychain'
+    pod 'FMDB'
+    pod 'MBProgressHUD'
+    pod 'MLLabel'
+    pod 'YLGIFImage'
+    pod 'YTKKeyValueStore'
+    pod 'Bugly'
+    pod 'Shimmer'
+    pod 'ZYBannerView'
+    pod 'RNCryptor-objc'
+    
+    pod 'AMap2DMap', '~> 5.6.1' #2D地图SDK 
+    pod 'AMapSearch', '~> 6.6.0' #搜索功能
+    pod 'AMapLocation', '~> 2.6.1'
+    
+#     pod 'ODRefreshControl'
+#     pod 'TZImagePickerController'
+    #视频播放
+    pod 'ZFPlayer', '~> 3.0'
+    pod 'ZFPlayer/ijkplayer', '~> 3.0'
+    pod 'ZFPlayer/AVPlayer', '~> 3.0'
+    pod 'ZFPlayer/ControlView', '~> 3.0'
+#     pod 'ZFPlayer/KSYMediaPlayer', '~> 3.0'
+    
+end
+
+target 'BiChat Dev' do
+  imchat_pods
+end
+
+target 'BiChat Test' do
+  imchat_pods
+end
+
+target 'BiChat Live' do
+  imchat_pods
+end
+
+target 'BiChat Cn' do
+  imchat_pods
+end
+
+target 'BiChat Ent' do
+  imchat_pods
+end

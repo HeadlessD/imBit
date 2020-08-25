@@ -1,0 +1,19 @@
+/* 
+  MSTImagePicker.strings
+  MSTImagePickerController
+
+  Created by Mustard on 2016/10/13.
+  Copyright © 2016年 Mustard. All rights reserved.
+*/
+
+"str_confirm" = "Confirm";
+"str_allow_photoLibrary" = "Please enter \"Setting-Privacy-Photos\" and allow to access Photos.";
+"str_photos" = "Photos";
+"str_get_to_maximum_selected" = "Select a maximum of %zd photos";
+"str_i_see" = "OK";
+"str_preview" = "Preview";
+"Done" = "Done";
+"str_setting" = "Setting";
+"str_original" = "Full Image";
+"str_both_video_photo" = "Can not choose both videos and photos";
+"str_access_photo" = "Allow %@ to access your Photos in \"Settings -> Privacy -> Photos\"";

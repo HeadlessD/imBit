@@ -1,0 +1,14 @@
+/*
+ imchatLanguage.strings
+ BiChat
+ 
+ Created by chat on 2018/12/11.
+ Copyright © 2018 worm_kc. All rights reserved.
+ */
+
+"NSCameraUsageDescription" = "Take and send photos with a camera";
+"NSContactsUsageDescription" = "Mobile phone address book data will be MD5 irreversible encryption to ensure security, only to find and add your friends, will not be used for any other purposes, not allowed to read will not affect the normal use of other functions";
+"NSLocationWhenInUseUsageDescription" = "Use location";
+"NSMicrophoneUsageDescription" = "Send a voice message requires a microphone";
+"NSPhotoLibraryAddUsageDescription" = "Save image to album";
+"NSPhotoLibraryUsageDescription" = "Select and send photos in the album";

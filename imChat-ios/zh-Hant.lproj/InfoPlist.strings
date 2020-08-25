@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  BiChat
+
+  Created by chat on 2019/1/7.
+  Copyright © 2019 worm_kc. All rights reserved.
+*/
+"NSCameraUsageDescription" = "使用相機拍攝並發送照片";
+"NSContactsUsageDescription" = "手機通訊錄數據將進行MD5不可逆加密以保障安全，僅用於發現並添加你的好友，不會被用於其他任何用途，不允許讀取不會影響其他功能的正常使用";
+"NSLocationWhenInUseUsageDescription" = "使用地理位置";
+"NSMicrophoneUsageDescription" = "發送語音消息需要使用麥克風";
+"NSPhotoLibraryAddUsageDescription" = "保存圖片到相冊";
+"NSPhotoLibraryUsageDescription" = "在相冊中選擇並發送照片";

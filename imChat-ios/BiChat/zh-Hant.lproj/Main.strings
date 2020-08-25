@@ -1,0 +1,30 @@
+
+/* Class = "UITabBarItem"; title = "通讯录"; ObjectID = "4er-Bt-sN9"; */
+"4er-Bt-sN9.title" = "通訊錄";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "KmN-WZ-sfr"; */
+"KmN-WZ-sfr.title" = "Root View Controller";
+
+/* Class = "UITabBarItem"; title = "我"; ObjectID = "MJh-CQ-13X"; */
+"MJh-CQ-13X.title" = "我";
+
+/* Class = "UITabBarItem"; title = "聊天"; ObjectID = "Qzg-tf-QK5"; */
+"Qzg-tf-QK5.title" = "聊天";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "qb5-gU-tcw"; */
+"qb5-gU-tcw.title" = "Root View Controller";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "qgN-yv-ZKP"; */
+"qgN-yv-ZKP.title" = "Root View Controller";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "rC4-gq-3Lp"; */
+"rC4-gq-3Lp.title" = "Root View Controller";
+
+/* Class = "UITabBarItem"; title = "红包"; ObjectID = "t1y-ME-RdA"; */
+"t1y-ME-RdA.title" = "紅包";
+
+/* Class = "UITabBarItem"; title = "头条"; ObjectID = "vgp-od-Vl9"; */
+"vgp-od-Vl9.title" = "頭條";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "vhS-MI-hqM"; */
+"vhS-MI-hqM.title" = "Root View Controller";
